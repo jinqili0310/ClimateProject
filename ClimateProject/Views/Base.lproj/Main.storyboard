@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Ib-Rp-o90">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Freude.otf">
+            <string>Freude-Normal</string>
+        </array>
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Introduction View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="Introduction View Controller" id="BYZ-38-t0r" customClass="ViewController" customModule="ClimateProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="intro1" translatesAutoresizingMaskIntoConstraints="NO" id="stU-6A-zWf">
+                                <rect key="frame" x="57" y="44" width="300" height="231"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Nh2-Lq-MWs">
+                                <rect key="frame" x="39" y="296" width="336" height="346.5"/>
+                                <string key="text">Did you have a favorite animal growing up? How would you feel if your environment is becoming uninhabitable and you have no food supply? This is the case for many animals suffering from climate change impacts. 
+
+Burning fossil fuels, rising sea levels, warmer oceans, wildfires, droughts, and melting arctic have caused in an imbalance in our ecosystem endangering many animals’ habitats and ecosystems threatening their survival. </string>
+                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The good news, you can help! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mI-mG-zEe">
+                                <rect key="frame" x="70" y="658.5" width="274.5" height="23.5"/>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                <color key="textColor" red="0.91764705882352937" green="0.67450980392156867" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="840-Ta-eqh">
+                                <rect key="frame" x="27" y="697" width="360" height="165"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="165" id="ngh-38-BKp"/>
+                                </constraints>
+                                <string key="text">Welcome to EcoWarriors! 
+Your path to saving the climate and endangered animals.</string>
+                                <color key="textColor" red="0.37254901960784315" green="0.80784313725490198" blue="0.45882352941176469" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Freude-Normal" family="Freude" pointSize="30"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.95294117649999999" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="1mI-mG-zEe" firstAttribute="top" secondItem="Nh2-Lq-MWs" secondAttribute="bottom" constant="16" id="4yk-ob-vHb"/>
+                            <constraint firstItem="840-Ta-eqh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Q4c-Xd-1e8"/>
+                            <constraint firstItem="840-Ta-eqh" firstAttribute="top" secondItem="1mI-mG-zEe" secondAttribute="bottom" constant="15" id="XCt-8Z-YWJ"/>
+                            <constraint firstItem="1mI-mG-zEe" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Zrj-4Q-gIX"/>
+                            <constraint firstItem="840-Ta-eqh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="27" id="cDD-At-Nbt"/>
+                            <constraint firstItem="stU-6A-zWf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="deh-A4-tBX"/>
+                            <constraint firstItem="840-Ta-eqh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="iL3-a9-wE3"/>
+                            <constraint firstItem="stU-6A-zWf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lDJ-GC-Eq5"/>
+                            <constraint firstItem="Nh2-Lq-MWs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mm9-k6-jxS"/>
+                            <constraint firstItem="Nh2-Lq-MWs" firstAttribute="top" secondItem="stU-6A-zWf" secondAttribute="bottom" constant="21" id="osZ-nb-c2u"/>
+                            <constraint firstItem="Nh2-Lq-MWs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="39" id="r8D-Kq-xaE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--Login View Controller-->
+        <scene sceneID="kVz-Nt-z84">
+            <objects>
+                <viewController title="Login View Controller" id="8Ib-Rp-o90" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DTE-Vj-yyz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="login1" translatesAutoresizingMaskIntoConstraints="NO" id="xSF-CS-OlQ">
+                                <rect key="frame" x="58" y="81" width="298" height="138"/>
+                            </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="johndoe@mail.com" clearsOnBeginEditing="YES" minimumFontSize="15" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="in5-mx-8J2">
+                                <rect key="frame" x="59.5" y="273" width="295" height="48"/>
+                                <color key="tintColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="Vz6-bh-eJW"/>
+                                    <constraint firstAttribute="width" constant="295" id="aEI-kN-fqO"/>
+                                </constraints>
+                                <color key="textColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next" enablesReturnKeyAutomatically="YES" textContentType="email"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="******" clearsOnBeginEditing="YES" minimumFontSize="15" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="zLz-4P-OF3">
+                                <rect key="frame" x="59.5" y="366" width="295" height="48"/>
+                                <color key="tintColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="hdh-q4-UJR"/>
+                                    <constraint firstAttribute="width" constant="295" id="t86-ld-P6P"/>
+                                </constraints>
+                                <color key="textColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="continue" enablesReturnKeyAutomatically="YES" secureTextEntry="YES" textContentType="password"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KVY-hf-joo">
+                                <rect key="frame" x="59.5" y="459" width="295" height="48"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="295" id="0bu-hX-nMt"/>
+                                    <constraint firstAttribute="height" constant="48" id="GXA-x2-z9N"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="15"/>
+                                <state key="normal" title="CONTINUE" backgroundImage="continue"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVr-bL-oIb">
+                                <rect key="frame" x="137" y="528" width="140" height="27"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                                <state key="normal" title="Forgot your password?">
+                                    <color key="titleColor" red="0.28235294119999998" green="0.72549019609999998" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q70-KL-Dhm">
+                                <rect key="frame" x="183.5" y="550" width="47" height="26"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleColor" red="0.28235294119999998" green="0.72549019609999998" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.95294117649999999" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Yvo-Dc-sqQ" firstAttribute="bottom" secondItem="Q70-KL-Dhm" secondAttribute="bottom" constant="286" id="0Tj-E6-wSB"/>
+                            <constraint firstItem="KVY-hf-joo" firstAttribute="centerX" secondItem="DTE-Vj-yyz" secondAttribute="centerX" id="4oZ-KO-mhl"/>
+                            <constraint firstItem="zLz-4P-OF3" firstAttribute="top" secondItem="in5-mx-8J2" secondAttribute="bottom" constant="45" id="61a-Gn-IKH"/>
+                            <constraint firstItem="in5-mx-8J2" firstAttribute="top" secondItem="xSF-CS-OlQ" secondAttribute="bottom" constant="54" id="ED0-X9-2Ql"/>
+                            <constraint firstItem="Q70-KL-Dhm" firstAttribute="centerX" secondItem="DTE-Vj-yyz" secondAttribute="centerX" id="OO5-nc-sTE"/>
+                            <constraint firstItem="xSF-CS-OlQ" firstAttribute="top" secondItem="Yvo-Dc-sqQ" secondAttribute="top" constant="37" id="Xd8-Fq-guW"/>
+                            <constraint firstItem="xSF-CS-OlQ" firstAttribute="centerX" secondItem="DTE-Vj-yyz" secondAttribute="centerX" id="cgQ-vB-z0t"/>
+                            <constraint firstItem="in5-mx-8J2" firstAttribute="centerX" secondItem="DTE-Vj-yyz" secondAttribute="centerX" id="lf0-pg-WVU"/>
+                            <constraint firstItem="gVr-bL-oIb" firstAttribute="top" secondItem="KVY-hf-joo" secondAttribute="bottom" constant="21" id="oBP-l2-sRX"/>
+                            <constraint firstItem="zLz-4P-OF3" firstAttribute="centerX" secondItem="DTE-Vj-yyz" secondAttribute="centerX" id="oln-sn-GKh"/>
+                            <constraint firstItem="Q70-KL-Dhm" firstAttribute="top" secondItem="KVY-hf-joo" secondAttribute="bottom" constant="43" id="rrx-kV-KTf"/>
+                            <constraint firstItem="gVr-bL-oIb" firstAttribute="centerX" secondItem="DTE-Vj-yyz" secondAttribute="centerX" id="tGo-NP-IPg"/>
+                            <constraint firstItem="KVY-hf-joo" firstAttribute="top" secondItem="zLz-4P-OF3" secondAttribute="bottom" constant="45" id="tNh-YQ-WlE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Yvo-Dc-sqQ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gXp-vs-KaI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="915.94202898550736" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="continue" width="295" height="48"/>
+        <image name="input" width="295" height="48"/>
+        <image name="intro1" width="300" height="231"/>
+        <image name="login1" width="298" height="138"/>
+    </resources>
+</document>
