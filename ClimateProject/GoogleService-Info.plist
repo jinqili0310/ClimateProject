@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>644474658006-1she9da1jrnn9liblfhah45q6ibgn0o5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.644474658006-1she9da1jrnn9liblfhah45q6ibgn0o5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBDWNQOrLiOagBQWBr5T5um7EBCvdU6spY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>644474658006</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.test.ClimateProject</string>
+	<key>PROJECT_ID</key>
+	<string>climateproject-9b256</string>
+	<key>STORAGE_BUCKET</key>
+	<string>climateproject-9b256.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:644474658006:ios:29559ff33ec023818c3d77</string>
+	<key>DATABASE_URL</key>
+	<string>https://climateproject-9b256.firebaseio.com</string>
+</dict>
+</plist>

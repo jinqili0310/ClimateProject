@@ -17,6 +17,11 @@
 		D89FA251243A803B00E0C146 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D89FA250243A803B00E0C146 /* Montserrat-Regular.ttf */; };
 		D89FA253243A804400E0C146 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D89FA252243A804400E0C146 /* Montserrat-SemiBold.ttf */; };
 		D89FA255243A860D00E0C146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89FA254243A860D00E0C146 /* Assets.xcassets */; };
+		D8E941C3243C8CD400FAFB97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E941C2243C8CD400FAFB97 /* LoginViewController.swift */; };
+		D8E941CA243C906B00FAFB97 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E941C9243C906B00FAFB97 /* SignupViewController.swift */; };
+		D8E941CE243C929800FAFB97 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E941CD243C929800FAFB97 /* TextField.swift */; };
+		D8E941D0243C9FF000FAFB97 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E941CF243C9FF000FAFB97 /* Utilities.swift */; };
+		D8E941D2243CA57400FAFB97 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D8E941D1243CA57400FAFB97 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		D89FA250243A803B00E0C146 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		D89FA252243A804400E0C146 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		D89FA254243A860D00E0C146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8E941C2243C8CD400FAFB97 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ClimateProject/Controllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
+		D8E941C9243C906B00FAFB97 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		D8E941CD243C929800FAFB97 /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		D8E941CF243C9FF000FAFB97 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		D8E941D1243CA57400FAFB97 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,10 +77,12 @@
 				D89FA254243A860D00E0C146 /* Assets.xcassets */,
 				D89FA235243A7F3D00E0C146 /* AppDelegate.swift */,
 				D89FA237243A7F3D00E0C146 /* SceneDelegate.swift */,
+				D8E941C4243C8DAD00FAFB97 /* Models */,
 				D89FA24A243A7FD400E0C146 /* Controllers */,
 				D89FA249243A7FCB00E0C146 /* Views */,
 				D89FA24B243A800A00E0C146 /* Fonts */,
 				D89FA243243A7F3F00E0C146 /* Info.plist */,
+				D8E941D1243CA57400FAFB97 /* GoogleService-Info.plist */,
 			);
 			path = ClimateProject;
 			sourceTree = "<group>";
@@ -88,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				D89FA239243A7F3D00E0C146 /* ViewController.swift */,
+				D8E941C2243C8CD400FAFB97 /* LoginViewController.swift */,
+				D8E941C9243C906B00FAFB97 /* SignupViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -101,6 +115,15 @@
 				D89FA252243A804400E0C146 /* Montserrat-SemiBold.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D8E941C4243C8DAD00FAFB97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8E941CD243C929800FAFB97 /* TextField.swift */,
+				D8E941CF243C9FF000FAFB97 /* Utilities.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D89FA251243A803B00E0C146 /* Montserrat-Regular.ttf in Resources */,
+				D8E941D2243CA57400FAFB97 /* GoogleService-Info.plist in Resources */,
 				D89FA24D243A802200E0C146 /* Freude.otf in Resources */,
 				D89FA24F243A803100E0C146 /* Montserrat-Medium.ttf in Resources */,
 				D89FA253243A804400E0C146 /* Montserrat-SemiBold.ttf in Resources */,
@@ -178,7 +202,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8E941CA243C906B00FAFB97 /* SignupViewController.swift in Sources */,
+				D8E941C3243C8CD400FAFB97 /* LoginViewController.swift in Sources */,
+				D8E941D0243C9FF000FAFB97 /* Utilities.swift in Sources */,
 				D89FA23A243A7F3D00E0C146 /* ViewController.swift in Sources */,
+				D8E941CE243C929800FAFB97 /* TextField.swift in Sources */,
 				D89FA236243A7F3D00E0C146 /* AppDelegate.swift in Sources */,
 				D89FA238243A7F3D00E0C146 /* SceneDelegate.swift in Sources */,
 			);
