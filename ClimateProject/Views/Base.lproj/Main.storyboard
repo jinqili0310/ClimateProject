@@ -2614,6 +2614,9 @@ about the sea turtle!</string>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="15"/>
                                         <state key="normal" title="CONTINUE" backgroundImage="continue"/>
+                                        <connections>
+                                            <action selector="signupPressed:" destination="ib9-La-sWW" eventType="touchUpInside" id="Sk0-Nk-yk3"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
