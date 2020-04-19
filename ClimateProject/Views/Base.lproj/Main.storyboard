@@ -380,6 +380,166 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
             </objects>
             <point key="canvasLocation" x="1700.0000000000002" y="511.60714285714283"/>
         </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="Niz-ZN-K7M">
+            <objects>
+                <viewController storyboardIdentifier="Menu View Controller" title="Menu View Controller" id="Jp5-5Y-96S" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BA8-zx-8sr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rect" translatesAutoresizingMaskIntoConstraints="NO" id="qSi-Lr-Nr6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="L1a-ZG-XgM"/>
+                                    <constraint firstAttribute="width" constant="414" id="kM6-S9-gN1"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="m34-jR-Jhg">
+                                <rect key="frame" x="87" y="40" width="240" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="Sur-5C-PBg"/>
+                                    <constraint firstAttribute="height" constant="50" id="qrX-On-NzE"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hFe-VV-fi8">
+                                <rect key="frame" x="364" y="54" width="20" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="Vmt-fx-MRF"/>
+                                    <constraint firstAttribute="width" constant="20" id="t2G-2R-ccT"/>
+                                </constraints>
+                                <state key="normal" image="menu"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="HWB-UZ-LTs">
+                                <rect key="frame" x="20" y="151" width="375" height="400"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="58F-L9-CfG">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="25"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="feed" translatesAutoresizingMaskIntoConstraints="NO" id="Mrf-iL-5hs">
+                                                <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="25" id="WEd-hH-cEN"/>
+                                                    <constraint firstAttribute="height" constant="25" id="wId-Yq-mjG"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Home" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cHe-ne-ie1">
+                                                <rect key="frame" x="50" y="0.0" width="325" height="25"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="border" translatesAutoresizingMaskIntoConstraints="NO" id="aJ1-MV-3dV">
+                                        <rect key="frame" x="0.0" y="55" width="375" height="1"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="uIn-7l-KGv">
+                                        <rect key="frame" x="0.0" y="86" width="375" height="25"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert" translatesAutoresizingMaskIntoConstraints="NO" id="8cM-Or-5MC">
+                                                <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="25" id="eUK-wC-b1i"/>
+                                                    <constraint firstAttribute="height" constant="25" id="pIn-Ej-Wk5"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Set Reminder" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yyk-Cr-VlP">
+                                                <rect key="frame" x="50" y="0.0" width="325" height="25"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="border" translatesAutoresizingMaskIntoConstraints="NO" id="hy9-eK-7GJ">
+                                        <rect key="frame" x="0.0" y="141" width="375" height="1"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="oIG-Cn-jFd">
+                                        <rect key="frame" x="0.0" y="172" width="375" height="25"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animals" translatesAutoresizingMaskIntoConstraints="NO" id="Hnv-7d-bxw">
+                                                <rect key="frame" x="0.0" y="0.0" width="30" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="30" id="KZi-kt-GRV"/>
+                                                    <constraint firstAttribute="height" constant="25" id="m2F-iF-vCI"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Change Animal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8dg-b1-Yug">
+                                                <rect key="frame" x="50" y="0.0" width="325" height="25"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="border" translatesAutoresizingMaskIntoConstraints="NO" id="ZfP-RG-1E2">
+                                        <rect key="frame" x="0.0" y="227" width="375" height="1"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="8T6-qq-b4M">
+                                        <rect key="frame" x="0.0" y="258" width="375" height="25"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="photos" translatesAutoresizingMaskIntoConstraints="NO" id="4D0-p0-s6p">
+                                                <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="GYy-w1-Ocs"/>
+                                                    <constraint firstAttribute="width" constant="25" id="Rjp-iQ-s0Z"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Postcards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bzg-qy-eEh">
+                                                <rect key="frame" x="50" y="0.0" width="325" height="25"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="border" translatesAutoresizingMaskIntoConstraints="NO" id="xqG-eF-Z9j">
+                                        <rect key="frame" x="0.0" y="313" width="375" height="1"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="3Ei-8f-CQc">
+                                        <rect key="frame" x="0.0" y="344" width="375" height="25"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="settings" translatesAutoresizingMaskIntoConstraints="NO" id="ccm-4a-nLM">
+                                                <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="25" id="6pl-FM-1ZW"/>
+                                                    <constraint firstAttribute="width" constant="25" id="MzD-MC-zd2"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settings" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFg-Mv-uxw">
+                                                <rect key="frame" x="50" y="0.0" width="325" height="25"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="border" translatesAutoresizingMaskIntoConstraints="NO" id="AQC-Ko-7Nz">
+                                        <rect key="frame" x="0.0" y="399" width="375" height="1"/>
+                                    </imageView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.68235294117647061" green="0.85882352941176465" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="m34-jR-Jhg" firstAttribute="top" secondItem="BA8-zx-8sr" secondAttribute="top" constant="40" id="JQQ-12-jd6"/>
+                            <constraint firstItem="hFe-VV-fi8" firstAttribute="top" secondItem="rg3-cr-XBT" secondAttribute="top" constant="10" id="OhB-iR-bMO"/>
+                            <constraint firstItem="hFe-VV-fi8" firstAttribute="leading" secondItem="m34-jR-Jhg" secondAttribute="trailing" constant="37" id="bzf-wn-AR3"/>
+                            <constraint firstItem="qSi-Lr-Nr6" firstAttribute="top" secondItem="BA8-zx-8sr" secondAttribute="top" id="kmy-eb-kpf"/>
+                            <constraint firstItem="m34-jR-Jhg" firstAttribute="centerX" secondItem="BA8-zx-8sr" secondAttribute="centerX" id="nvc-YG-CUl"/>
+                            <constraint firstItem="qSi-Lr-Nr6" firstAttribute="trailing" secondItem="rg3-cr-XBT" secondAttribute="trailing" id="oNt-DN-hI4"/>
+                            <constraint firstItem="rg3-cr-XBT" firstAttribute="trailing" secondItem="hFe-VV-fi8" secondAttribute="trailing" constant="30" id="ohK-ai-Wck"/>
+                            <constraint firstItem="qSi-Lr-Nr6" firstAttribute="centerX" secondItem="BA8-zx-8sr" secondAttribute="centerX" id="ou2-eb-7AF"/>
+                            <constraint firstItem="qSi-Lr-Nr6" firstAttribute="leading" secondItem="rg3-cr-XBT" secondAttribute="leading" id="xfy-bT-Mcg"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="rg3-cr-XBT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L2A-dk-SiX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2473.913043478261" y="511.60714285714283"/>
+        </scene>
         <!--Welcome View Controller-->
         <scene sceneID="xaR-1W-IgX">
             <objects>
@@ -403,7 +563,7 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLd-S1-Syn">
-                                <rect key="frame" x="75.5" y="185" width="263.5" height="76"/>
+                                <rect key="frame" x="77.5" y="185" width="259" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="VDf-HF-ev0"/>
                                 </constraints>
@@ -2659,10 +2819,11 @@ about the sea turtle!</string>
     <resources>
         <image name="age" width="177" height="86"/>
         <image name="alert" width="16" height="16"/>
-        <image name="animals" width="28" height="28"/>
+        <image name="animals" width="28" height="19"/>
         <image name="badge" width="76" height="76"/>
         <image name="bag" width="288" height="192"/>
         <image name="bear" width="275" height="172"/>
+        <image name="border" width="375" height="1"/>
         <image name="button2" width="177" height="86"/>
         <image name="button3" width="247" height="86"/>
         <image name="cong" width="177" height="177"/>
