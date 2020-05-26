@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D81E63E0247CD2F800D441A0 /* RemindMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E63DF247CD2F800D441A0 /* RemindMeViewController.swift */; };
 		D89FA236243A7F3D00E0C146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89FA235243A7F3D00E0C146 /* AppDelegate.swift */; };
 		D89FA238243A7F3D00E0C146 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89FA237243A7F3D00E0C146 /* SceneDelegate.swift */; };
 		D89FA23A243A7F3D00E0C146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89FA239243A7F3D00E0C146 /* ViewController.swift */; };
@@ -17,6 +18,9 @@
 		D89FA251243A803B00E0C146 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D89FA250243A803B00E0C146 /* Montserrat-Regular.ttf */; };
 		D89FA253243A804400E0C146 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D89FA252243A804400E0C146 /* Montserrat-SemiBold.ttf */; };
 		D89FA255243A860D00E0C146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89FA254243A860D00E0C146 /* Assets.xcassets */; };
+		D8A8BC4D246A260400A21CA5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BC4C246A260400A21CA5 /* WelcomeViewController.swift */; };
+		D8A8BC4F246B7D3000A21CA5 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BC4E246B7D3000A21CA5 /* GenderViewController.swift */; };
+		D8CB1640246B80AD002FA7C5 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB163F246B80AD002FA7C5 /* UserInfo.swift */; };
 		D8D03DAE2444D670003F50E5 /* ClimateProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8D03DAC2444D670003F50E5 /* ClimateProject.xcdatamodeld */; };
 		D8E941C3243C8CD400FAFB97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E941C2243C8CD400FAFB97 /* LoginViewController.swift */; };
 		D8E941CA243C906B00FAFB97 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E941C9243C906B00FAFB97 /* SignupViewController.swift */; };
@@ -30,6 +34,7 @@
 		2665E5076A8534B46BE25627 /* Pods_ClimateProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClimateProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A645FF10A37E9EC37F29DB35 /* Pods-ClimateProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateProject.debug.xcconfig"; path = "Target Support Files/Pods-ClimateProject/Pods-ClimateProject.debug.xcconfig"; sourceTree = "<group>"; };
 		C35E16CAB74E0617D429B63A /* Pods-ClimateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateProject.release.xcconfig"; path = "Target Support Files/Pods-ClimateProject/Pods-ClimateProject.release.xcconfig"; sourceTree = "<group>"; };
+		D81E63DF247CD2F800D441A0 /* RemindMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeViewController.swift; sourceTree = "<group>"; };
 		D89FA232243A7F3D00E0C146 /* ClimateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89FA235243A7F3D00E0C146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D89FA237243A7F3D00E0C146 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +47,9 @@
 		D89FA250243A803B00E0C146 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
 		D89FA252243A804400E0C146 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
 		D89FA254243A860D00E0C146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8A8BC4C246A260400A21CA5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ClimateProject/Controllers/WelcomeViewController.swift; sourceTree = SOURCE_ROOT; };
+		D8A8BC4E246B7D3000A21CA5 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
+		D8CB163F246B80AD002FA7C5 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		D8D03DAD2444D670003F50E5 /* ClimateProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClimateProject.xcdatamodel; sourceTree = "<group>"; };
 		D8E941C2243C8CD400FAFB97 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ClimateProject/Controllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
 		D8E941C9243C906B00FAFB97 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
@@ -116,9 +124,12 @@
 		D89FA24A243A7FD400E0C146 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D81E63DF247CD2F800D441A0 /* RemindMeViewController.swift */,
 				D89FA239243A7F3D00E0C146 /* ViewController.swift */,
 				D8E941C2243C8CD400FAFB97 /* LoginViewController.swift */,
 				D8E941C9243C906B00FAFB97 /* SignupViewController.swift */,
+				D8A8BC4C246A260400A21CA5 /* WelcomeViewController.swift */,
+				D8A8BC4E246B7D3000A21CA5 /* GenderViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -139,6 +150,7 @@
 			children = (
 				D8E941CD243C929800FAFB97 /* TextField.swift */,
 				D8E941CF243C9FF000FAFB97 /* Utilities.swift */,
+				D8CB163F246B80AD002FA7C5 /* UserInfo.swift */,
 				D8D03DAC2444D670003F50E5 /* ClimateProject.xcdatamodeld */,
 			);
 			path = Models;
@@ -273,13 +285,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A8BC4D246A260400A21CA5 /* WelcomeViewController.swift in Sources */,
+				D8A8BC4F246B7D3000A21CA5 /* GenderViewController.swift in Sources */,
 				D8E941CA243C906B00FAFB97 /* SignupViewController.swift in Sources */,
 				D8D03DAE2444D670003F50E5 /* ClimateProject.xcdatamodeld in Sources */,
 				D8E941C3243C8CD400FAFB97 /* LoginViewController.swift in Sources */,
 				D8E941D0243C9FF000FAFB97 /* Utilities.swift in Sources */,
 				D89FA23A243A7F3D00E0C146 /* ViewController.swift in Sources */,
+				D81E63E0247CD2F800D441A0 /* RemindMeViewController.swift in Sources */,
 				D8E941CE243C929800FAFB97 /* TextField.swift in Sources */,
 				D89FA236243A7F3D00E0C146 /* AppDelegate.swift in Sources */,
+				D8CB1640246B80AD002FA7C5 /* UserInfo.swift in Sources */,
 				D89FA238243A7F3D00E0C146 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,6 +450,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ClimateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -453,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.test.ClimateProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

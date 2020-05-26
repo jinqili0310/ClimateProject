@@ -28,4 +28,10 @@ class Utilities {
         
         return passwordTest.evaluate(with: testStr)
     }
+    
+    static func isPasswordRight(password:String?, passwordConfirm:String?) -> Bool {
+        guard password != nil else { return false }
+        guard passwordConfirm != nil else {return false}
+        if passwordConfirm == password { return true} else {return false}
+    }
 }
