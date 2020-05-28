@@ -33,7 +33,7 @@
                                 <rect key="frame" x="57" y="44" width="300" height="231"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Nh2-Lq-MWs">
-                                <rect key="frame" x="39" y="296" width="336" height="345.5"/>
+                                <rect key="frame" x="39" y="296" width="336" height="346.5"/>
                                 <string key="text">Did you have a favorite animal growing up? How would you feel if your environment is becoming uninhabitable and you have no food supply? This is the case for many animals suffering from climate change impacts. 
 
 Burning fossil fuels, rising sea levels, warmer oceans, wildfires, droughts, and melting arctic have caused in an imbalance in our ecosystem endangering many animals’ habitats and ecosystems threatening their survival. </string>
@@ -42,7 +42,7 @@ Burning fossil fuels, rising sea levels, warmer oceans, wildfires, droughts, and
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The good news, you can help! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mI-mG-zEe">
-                                <rect key="frame" x="51.5" y="657.5" width="311" height="24.5"/>
+                                <rect key="frame" x="70" y="658.5" width="274.5" height="23.5"/>
                                 <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
                                 <color key="textColor" red="0.91764705882352937" green="0.67450980392156867" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -92,7 +92,7 @@ Your path to saving the climate and endangered animals.</string>
                                 <rect key="frame" x="58" y="81" width="298" height="138"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="45" translatesAutoresizingMaskIntoConstraints="NO" id="efu-6c-mix">
-                                <rect key="frame" x="59.5" y="269" width="295" height="234"/>
+                                <rect key="frame" x="59.5" y="270" width="295" height="234"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="johndoe@mail.com" clearsOnBeginEditing="YES" minimumFontSize="15" background="input" translatesAutoresizingMaskIntoConstraints="NO" id="in5-mx-8J2">
                                         <rect key="frame" x="0.0" y="0.0" width="295" height="48"/>
@@ -128,14 +128,14 @@ Your path to saving the climate and endangered animals.</string>
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q70-KL-Dhm">
-                                <rect key="frame" x="177.5" y="563" width="59" height="31"/>
+                                <rect key="frame" x="181" y="564" width="52" height="30"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="15"/>
                                 <state key="normal" title="Sign up">
                                     <color key="titleColor" red="0.28235294119999998" green="0.72549019609999998" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVr-bL-oIb">
-                                <rect key="frame" x="119.5" y="524" width="175" height="31"/>
+                                <rect key="frame" x="129" y="525" width="156" height="30"/>
                                 <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="15"/>
                                 <state key="normal" title="Forgot your password?">
                                     <color key="titleColor" red="0.28235294119999998" green="0.72549019609999998" blue="0.70588235290000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -223,6 +223,9 @@ Your path to saving the climate and endangered animals.</string>
                                             <constraint firstAttribute="height" constant="80" id="YIZ-qE-NTH"/>
                                         </constraints>
                                         <state key="normal" image="alert"/>
+                                        <connections>
+                                            <segue destination="Tjd-5g-SLs" kind="presentation" modalPresentationStyle="fullScreen" id="6md-U3-tds"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iBT-sN-QqN">
                                         <rect key="frame" x="160" y="0.0" width="80" height="80"/>
@@ -231,6 +234,9 @@ Your path to saving the climate and endangered animals.</string>
                                             <constraint firstAttribute="height" constant="80" id="suT-bb-grC"/>
                                         </constraints>
                                         <state key="normal" image="animals"/>
+                                        <connections>
+                                            <segue destination="QjE-Zo-mCb" kind="presentation" modalPresentationStyle="fullScreen" id="5dq-Z3-Krb"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zVh-mb-roR">
                                         <rect key="frame" x="240" y="0.0" width="80" height="80"/>
@@ -412,11 +418,11 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
                                 </constraints>
                                 <state key="normal" image="menu"/>
                                 <connections>
-                                    <segue destination="I7J-Cx-9Lz" kind="presentation" modalPresentationStyle="fullScreen" id="L9b-Mq-WNm"/>
+                                    <segue destination="XlV-7E-ZVb" kind="presentation" modalPresentationStyle="fullScreen" id="vFw-Yd-MJj"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="HWB-UZ-LTs">
-                                <rect key="frame" x="20" y="151" width="375" height="400"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="HWB-UZ-LTs">
+                                <rect key="frame" x="19.5" y="151" width="375" height="400"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="58F-L9-CfG">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="25"/>
@@ -538,12 +544,19 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
                                         <rect key="frame" x="0.0" y="399" width="375" height="1"/>
                                     </imageView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="400" id="06W-Hl-xwB"/>
+                                    <constraint firstAttribute="width" constant="375" id="KWu-HO-aPs"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.68235294117647061" green="0.85882352941176465" blue="0.71764705882352942" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="HWB-UZ-LTs" firstAttribute="top" secondItem="qSi-Lr-Nr6" secondAttribute="bottom" constant="56" id="77E-oZ-HQ6"/>
                             <constraint firstItem="m34-jR-Jhg" firstAttribute="top" secondItem="BA8-zx-8sr" secondAttribute="top" constant="40" id="JQQ-12-jd6"/>
                             <constraint firstItem="hFe-VV-fi8" firstAttribute="top" secondItem="rg3-cr-XBT" secondAttribute="top" constant="10" id="OhB-iR-bMO"/>
+                            <constraint firstItem="rg3-cr-XBT" firstAttribute="bottom" secondItem="HWB-UZ-LTs" secondAttribute="bottom" constant="311" id="SJH-dJ-PQW"/>
+                            <constraint firstItem="HWB-UZ-LTs" firstAttribute="centerX" secondItem="BA8-zx-8sr" secondAttribute="centerX" id="UX2-0u-Si0"/>
                             <constraint firstItem="hFe-VV-fi8" firstAttribute="leading" secondItem="m34-jR-Jhg" secondAttribute="trailing" constant="37" id="bzf-wn-AR3"/>
                             <constraint firstItem="qSi-Lr-Nr6" firstAttribute="top" secondItem="BA8-zx-8sr" secondAttribute="top" id="kmy-eb-kpf"/>
                             <constraint firstItem="m34-jR-Jhg" firstAttribute="centerX" secondItem="BA8-zx-8sr" secondAttribute="centerX" id="nvc-YG-CUl"/>
@@ -672,7 +685,8 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
                                 </constraints>
                                 <state key="normal" image="remindMe"/>
                                 <connections>
-                                    <segue destination="I7J-Cx-9Lz" kind="presentation" modalPresentationStyle="fullScreen" id="zbd-pM-kzv"/>
+                                    <action selector="allowNotification:" destination="Tjd-5g-SLs" eventType="touchUpInside" id="q5j-0O-IAF"/>
+                                    <segue destination="I7J-Cx-9Lz" kind="presentation" identifier="goToSetReminder" modalPresentationStyle="fullScreen" id="zbd-pM-kzv"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar" translatesAutoresizingMaskIntoConstraints="NO" id="iyV-Gt-NSP">
@@ -692,6 +706,9 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
                                             <constraint firstAttribute="width" constant="80" id="w8y-Sa-nTI"/>
                                         </constraints>
                                         <state key="normal" image="feed"/>
+                                        <connections>
+                                            <segue destination="XlV-7E-ZVb" kind="presentation" modalPresentationStyle="fullScreen" id="Lnj-Qq-Frn"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nsT-qk-zwY">
                                         <rect key="frame" x="80" y="0.0" width="80" height="80"/>
@@ -763,6 +780,11 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="E5c-Da-RkA"/>
                     </view>
+                    <connections>
+                        <outlet property="switchOne" destination="S9k-0K-Oo5" id="9Ug-e1-9Qk"/>
+                        <outlet property="switchThree" destination="yQH-3n-VjL" id="CTk-8E-ITh"/>
+                        <outlet property="switchTwo" destination="HiL-sg-yBo" id="Sxf-ZY-mmm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BcL-Us-zrV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -771,7 +793,7 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
         <!--SetReminder View Controller-->
         <scene sceneID="dmt-EZ-Z7a">
             <objects>
-                <viewController title="SetReminder View Controller" id="I7J-Cx-9Lz" sceneMemberID="viewController">
+                <viewController title="SetReminder View Controller" id="I7J-Cx-9Lz" customClass="SetReminderViewController" customModule="ClimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xHT-Vz-9vZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -815,6 +837,9 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
                                             <constraint firstAttribute="height" constant="80" id="Xq8-Hj-9ta"/>
                                         </constraints>
                                         <state key="normal" image="feed"/>
+                                        <connections>
+                                            <segue destination="XlV-7E-ZVb" kind="presentation" modalPresentationStyle="fullScreen" id="yqP-OX-yrM"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QVD-hp-4LO">
                                         <rect key="frame" x="80" y="0.0" width="80" height="80"/>
@@ -823,6 +848,9 @@ eco-warrior page! Here we track your progress as you become the next eco-warrior
                                             <constraint firstAttribute="height" constant="80" id="aG9-xs-SjN"/>
                                         </constraints>
                                         <state key="normal" image="alert"/>
+                                        <connections>
+                                            <segue destination="Tjd-5g-SLs" kind="presentation" modalPresentationStyle="fullScreen" id="eRB-ag-KkC"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfh-YV-EoW">
                                         <rect key="frame" x="160" y="0.0" width="80" height="80"/>
@@ -902,9 +930,15 @@ be reminded?</string>
                                     <constraint firstAttribute="height" constant="52" id="qHs-Us-hZu"/>
                                 </constraints>
                                 <state key="normal" image="setReminder"/>
+                                <connections>
+                                    <action selector="sendNotification:" destination="I7J-Cx-9Lz" eventType="touchUpInside" id="LEz-S8-Mrz"/>
+                                </connections>
                             </button>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="time" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="8li-dw-iZn">
-                                <rect key="frame" x="47" y="484.5" width="320" height="162.5"/>
+                                <rect key="frame" x="47" y="484.5" width="320" height="132.5"/>
+                                <connections>
+                                    <action selector="setTimeForNotification:" destination="I7J-Cx-9Lz" eventType="valueChanged" id="4rD-aR-crq"/>
+                                </connections>
                             </datePicker>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Wyo-zN-REo">
                                 <rect key="frame" x="72" y="426.5" width="270" height="43"/>
@@ -915,6 +949,9 @@ be reminded?</string>
                                         <state key="normal" title="S">
                                             <color key="titleColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="sunTouched:" destination="I7J-Cx-9Lz" eventType="touchUpInside" id="fOP-sh-o72"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CCp-k9-zE5">
                                         <rect key="frame" x="40" y="0.0" width="30" height="43"/>
@@ -922,6 +959,9 @@ be reminded?</string>
                                         <state key="normal" title="M">
                                             <color key="titleColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="monTouched:" destination="I7J-Cx-9Lz" eventType="touchUpInside" id="ogd-xJ-ZmR"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FA6-4j-EaC">
                                         <rect key="frame" x="80" y="0.0" width="30" height="43"/>
@@ -929,6 +969,9 @@ be reminded?</string>
                                         <state key="normal" title="T">
                                             <color key="titleColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="tueTouched:" destination="I7J-Cx-9Lz" eventType="touchUpInside" id="ou1-ZJ-9s6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUi-xB-gdH">
                                         <rect key="frame" x="120" y="0.0" width="30" height="43"/>
@@ -936,6 +979,9 @@ be reminded?</string>
                                         <state key="normal" title="W">
                                             <color key="titleColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="wedTouched:" destination="I7J-Cx-9Lz" eventType="touchUpInside" id="lgG-b3-acX"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lp-m3-UR6">
                                         <rect key="frame" x="160" y="0.0" width="30" height="43"/>
@@ -943,6 +989,9 @@ be reminded?</string>
                                         <state key="normal" title="T">
                                             <color key="titleColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="thurTouched:" destination="I7J-Cx-9Lz" eventType="touchUpInside" id="Trl-zi-XZL"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="00Z-N2-eP6">
                                         <rect key="frame" x="200" y="0.0" width="30" height="43"/>
@@ -950,6 +999,9 @@ be reminded?</string>
                                         <state key="normal" title="F">
                                             <color key="titleColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="friTouched:" destination="I7J-Cx-9Lz" eventType="touchUpInside" id="Gsq-Gd-Cox"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rog-FU-1k0">
                                         <rect key="frame" x="240" y="0.0" width="30" height="43"/>
@@ -957,6 +1009,9 @@ be reminded?</string>
                                         <state key="normal" title="S">
                                             <color key="titleColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="satTouched:" destination="I7J-Cx-9Lz" eventType="touchUpInside" id="vr7-Wg-p2h"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -965,7 +1020,7 @@ be reminded?</string>
                                 </constraints>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="agJ-8w-3OR">
-                                <rect key="frame" x="293" y="268" width="49" height="91.5"/>
+                                <rect key="frame" x="293" y="268" width="49" height="92"/>
                                 <subviews>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IJr-rf-pwo">
                                         <rect key="frame" x="0.0" y="0.0" width="51" height="31"/>
@@ -973,14 +1028,21 @@ be reminded?</string>
                                             <constraint firstAttribute="height" constant="31" id="NQ1-Hp-qM0"/>
                                         </constraints>
                                         <color key="onTintColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="dailyOnf:" destination="I7J-Cx-9Lz" eventType="valueChanged" id="xUg-66-stK"/>
+                                        </connections>
                                     </switch>
                                     <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Jlt-kQ-Fyb">
-                                        <rect key="frame" x="0.0" y="61" width="51" height="30.5"/>
+                                        <rect key="frame" x="0.0" y="61" width="51" height="31"/>
                                         <color key="onTintColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <action selector="weeklyOnF:" destination="I7J-Cx-9Lz" eventType="valueChanged" id="HOY-ER-zXQ"/>
+                                        </connections>
                                     </switch>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="49" id="PwF-h2-lK3"/>
+                                    <constraint firstItem="Jlt-kQ-Fyb" firstAttribute="width" secondItem="IJr-rf-pwo" secondAttribute="width" id="wlT-df-p2e"/>
                                 </constraints>
                             </stackView>
                         </subviews>
@@ -997,6 +1059,7 @@ be reminded?</string>
                             <constraint firstItem="Wyo-zN-REo" firstAttribute="centerX" secondItem="xHT-Vz-9vZ" secondAttribute="centerX" id="TtL-5Y-B1U"/>
                             <constraint firstItem="Wyo-zN-REo" firstAttribute="centerY" secondItem="xHT-Vz-9vZ" secondAttribute="centerY" id="ULB-3D-1GS"/>
                             <constraint firstItem="4I9-Kq-VvX" firstAttribute="trailing" secondItem="agJ-8w-3OR" secondAttribute="trailing" constant="72" id="WBg-JE-gMa"/>
+                            <constraint firstItem="Wyo-zN-REo" firstAttribute="top" secondItem="agJ-8w-3OR" secondAttribute="bottom" constant="66.5" id="Xgb-kf-Qt4"/>
                             <constraint firstItem="sm9-CO-G7i" firstAttribute="centerX" secondItem="xHT-Vz-9vZ" secondAttribute="centerX" id="Zic-5n-OLU"/>
                             <constraint firstItem="Myb-Y6-A2B" firstAttribute="top" secondItem="4I9-Kq-VvX" secondAttribute="top" constant="10" id="Ztd-GJ-0Xi"/>
                             <constraint firstItem="euc-Ui-g2T" firstAttribute="centerX" secondItem="xHT-Vz-9vZ" secondAttribute="centerX" id="dK7-OX-grd"/>
@@ -1005,10 +1068,9 @@ be reminded?</string>
                             <constraint firstItem="fc9-xh-pcb" firstAttribute="centerX" secondItem="xHT-Vz-9vZ" secondAttribute="centerX" id="j8c-wI-mJN"/>
                             <constraint firstItem="fc9-xh-pcb" firstAttribute="leading" secondItem="4I9-Kq-VvX" secondAttribute="leading" constant="7" id="jG4-q6-xH6"/>
                             <constraint firstItem="Myb-Y6-A2B" firstAttribute="leading" secondItem="4I9-Kq-VvX" secondAttribute="leading" constant="30" id="k3a-r5-sYe"/>
-                            <constraint firstItem="Wyo-zN-REo" firstAttribute="top" secondItem="agJ-8w-3OR" secondAttribute="bottom" constant="67" id="kYR-lP-mxY"/>
                             <constraint firstItem="d1F-LN-Cm9" firstAttribute="top" secondItem="xHT-Vz-9vZ" secondAttribute="top" constant="40" id="lDd-sE-O93"/>
                             <constraint firstItem="euc-Ui-g2T" firstAttribute="trailing" secondItem="4I9-Kq-VvX" secondAttribute="trailing" id="mLZ-ts-Ehc"/>
-                            <constraint firstItem="g20-6d-tgA" firstAttribute="top" secondItem="8li-dw-iZn" secondAttribute="bottom" constant="40" id="moW-e5-rik"/>
+                            <constraint firstItem="g20-6d-tgA" firstAttribute="top" secondItem="8li-dw-iZn" secondAttribute="bottom" constant="70" id="moW-e5-rik"/>
                             <constraint firstItem="daI-QO-hC0" firstAttribute="leading" secondItem="4I9-Kq-VvX" secondAttribute="leading" id="o9p-jl-MWL"/>
                             <constraint firstItem="euc-Ui-g2T" firstAttribute="leading" secondItem="4I9-Kq-VvX" secondAttribute="leading" id="q4a-PQ-0JD"/>
                             <constraint firstItem="d1F-LN-Cm9" firstAttribute="leading" secondItem="Myb-Y6-A2B" secondAttribute="trailing" constant="37" id="r9Y-qY-dT2"/>
@@ -1022,6 +1084,20 @@ be reminded?</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4I9-Kq-VvX"/>
                     </view>
+                    <connections>
+                        <outlet property="btnFri" destination="00Z-N2-eP6" id="uJO-zw-Ugf"/>
+                        <outlet property="btnMon" destination="CCp-k9-zE5" id="hLQ-he-dGD"/>
+                        <outlet property="btnSat" destination="rog-FU-1k0" id="EaZ-LG-P4C"/>
+                        <outlet property="btnSun" destination="n4G-7g-Bys" id="TEY-90-V2Z"/>
+                        <outlet property="btnThur" destination="5lp-m3-UR6" id="YPh-NC-qJn"/>
+                        <outlet property="btnTue" destination="FA6-4j-EaC" id="NiA-t2-nII"/>
+                        <outlet property="btnWed" destination="eUi-xB-gdH" id="O4b-Nh-HLT"/>
+                        <outlet property="dailyOn" destination="IJr-rf-pwo" id="xdi-V0-F16"/>
+                        <outlet property="datePicker" destination="8li-dw-iZn" id="wCR-q2-HkE"/>
+                        <outlet property="weekdayPicker" destination="Wyo-zN-REo" id="vNV-Z9-9Xg"/>
+                        <outlet property="weeklyOn" destination="Jlt-kQ-Fyb" id="oHW-tZ-9pI"/>
+                        <segue destination="XlV-7E-ZVb" kind="presentation" identifier="goToHome" modalPresentationStyle="fullScreen" id="c0n-RZ-DJ4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nXX-Qa-Zgo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1220,7 +1296,7 @@ about you</string>
         <!--AgeEdu View Controller-->
         <scene sceneID="i0Z-gk-nEa">
             <objects>
-                <viewController title="AgeEdu View Controller" id="kLJ-ta-qaH" sceneMemberID="viewController">
+                <viewController title="AgeEdu View Controller" id="kLJ-ta-qaH" customClass="AgeEduViewController" customModule="ClimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qqx-hV-hVe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1248,16 +1324,15 @@ about you</string>
                                 <color key="textColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w0q-M3-Xu7">
-                                <rect key="frame" x="118.5" y="284" width="177" height="86"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="18" textAlignment="center" minimumFontSize="17" background="age0" translatesAutoresizingMaskIntoConstraints="NO" id="xbD-Vs-F8f">
+                                <rect key="frame" x="118" y="284" width="178" height="86"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="Ges-fd-swq"/>
+                                    <constraint firstAttribute="height" constant="86" id="Xpn-n1-AMj"/>
+                                    <constraint firstAttribute="width" constant="178" id="cHi-uY-J24"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="30"/>
-                                <state key="normal" title="18" backgroundImage="age">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                            </button>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="25"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Education:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="azE-WQ-GDv">
                                 <rect key="frame" x="43" y="394" width="180.5" height="48"/>
                                 <constraints>
@@ -1271,11 +1346,15 @@ about you</string>
                                 <rect key="frame" x="76" y="454" width="262" height="86"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="86" id="61k-0T-yBO"/>
+                                    <constraint firstAttribute="width" constant="262" id="J01-vU-4h2"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="30"/>
-                                <state key="normal" title="Sophomore" backgroundImage="education">
+                                <state key="normal" title="Freshman" backgroundImage="education">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="eduDrodown:" destination="kLJ-ta-qaH" eventType="touchUpInside" id="l8Z-ba-edN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t7y-Nd-wD5">
                                 <rect key="frame" x="184" y="575" width="46" height="36"/>
@@ -1288,7 +1367,8 @@ about you</string>
                                     <color key="titleColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="WUK-8q-ncS" kind="presentation" modalPresentationStyle="fullScreen" id="eQ6-pt-pjb"/>
+                                    <action selector="genderSelected:" destination="kLJ-ta-qaH" eventType="touchUpInside" id="Ghq-zh-ja7"/>
+                                    <segue destination="WUK-8q-ncS" kind="presentation" identifier="goToHousing" modalPresentationStyle="fullScreen" id="eQ6-pt-pjb"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="s2" translatesAutoresizingMaskIntoConstraints="NO" id="QQB-Ta-FOU">
@@ -1298,10 +1378,70 @@ about you</string>
                                     <constraint firstAttribute="width" constant="146" id="tI8-lK-V8M"/>
                                 </constraints>
                             </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="QSC-OO-27D">
+                                <rect key="frame" x="76" y="454" width="262" height="344"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxC-eM-F77">
+                                        <rect key="frame" x="0.0" y="0.0" width="262" height="86"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="262" id="7BO-Wt-fWV"/>
+                                            <constraint firstAttribute="height" constant="86" id="tLS-Yz-ed6"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="30"/>
+                                        <state key="normal" title="Freshman" backgroundImage="education0">
+                                            <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="freshman:" destination="kLJ-ta-qaH" eventType="touchUpInside" id="CIN-oC-f1z"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2k-l1-POf">
+                                        <rect key="frame" x="0.0" y="86" width="262" height="86"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="30"/>
+                                        <state key="normal" title="Sophomore" backgroundImage="education0">
+                                            <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="sophomore:" destination="kLJ-ta-qaH" eventType="touchUpInside" id="AQe-ja-NC9"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vI1-bl-of7">
+                                        <rect key="frame" x="0.0" y="172" width="262" height="86"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="30"/>
+                                        <state key="normal" title="Junior" backgroundImage="education0">
+                                            <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="junior:" destination="kLJ-ta-qaH" eventType="touchUpInside" id="xwP-Lf-6f8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaZ-X1-r0W">
+                                        <rect key="frame" x="0.0" y="258" width="262" height="86"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="30"/>
+                                        <state key="normal" title="Senior" backgroundImage="education0">
+                                            <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="senior:" destination="kLJ-ta-qaH" eventType="touchUpInside" id="tRK-WI-k0m"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vI1-bl-of7" firstAttribute="height" secondItem="mxC-eM-F77" secondAttribute="height" id="Nn3-CB-hMf"/>
+                                    <constraint firstItem="NaZ-X1-r0W" firstAttribute="height" secondItem="mxC-eM-F77" secondAttribute="height" id="Qwd-wY-JBL"/>
+                                    <constraint firstItem="a2k-l1-POf" firstAttribute="width" secondItem="mxC-eM-F77" secondAttribute="width" id="S4K-gS-sFj"/>
+                                    <constraint firstItem="NaZ-X1-r0W" firstAttribute="width" secondItem="mxC-eM-F77" secondAttribute="width" id="fcj-bc-0oc"/>
+                                    <constraint firstItem="a2k-l1-POf" firstAttribute="height" secondItem="mxC-eM-F77" secondAttribute="height" id="gBA-RQ-zvO"/>
+                                    <constraint firstItem="vI1-bl-of7" firstAttribute="width" secondItem="mxC-eM-F77" secondAttribute="width" id="zgs-cM-awA"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="RK9-OX-KkA" firstAttribute="centerX" secondItem="MWA-G1-TT1" secondAttribute="centerX" id="3Le-Ch-19c"/>
+                            <constraint firstItem="azE-WQ-GDv" firstAttribute="top" secondItem="xbD-Vs-F8f" secondAttribute="bottom" constant="24" id="4LZ-bI-y4m"/>
                             <constraint firstItem="RK9-OX-KkA" firstAttribute="top" secondItem="qqx-hV-hVe" secondAttribute="topMargin" constant="-44" id="81s-cW-twM"/>
                             <constraint firstItem="QQB-Ta-FOU" firstAttribute="centerX" secondItem="qqx-hV-hVe" secondAttribute="centerX" id="Ayv-uU-DTS"/>
                             <constraint firstItem="QQB-Ta-FOU" firstAttribute="leading" secondItem="68J-O9-UtA" secondAttribute="leading" constant="134" id="BMn-4p-Cpf"/>
@@ -1309,23 +1449,30 @@ about you</string>
                             <constraint firstItem="kPW-hw-TBH" firstAttribute="top" secondItem="MWA-G1-TT1" secondAttribute="bottom" constant="52" id="GEd-Jy-4Cz"/>
                             <constraint firstItem="68J-O9-UtA" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="azE-WQ-GDv" secondAttribute="trailing" symbolic="YES" id="JJZ-Id-AKE"/>
                             <constraint firstItem="68J-O9-UtA" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="kPW-hw-TBH" secondAttribute="trailing" symbolic="YES" id="M9s-RI-hOU"/>
+                            <constraint firstItem="QSC-OO-27D" firstAttribute="top" secondItem="azE-WQ-GDv" secondAttribute="bottom" constant="12" id="MG3-oa-Jjz"/>
                             <constraint firstItem="t7y-Nd-wD5" firstAttribute="centerX" secondItem="qqx-hV-hVe" secondAttribute="centerX" id="Mc7-yr-B36"/>
                             <constraint firstItem="RZQ-9n-i3N" firstAttribute="top" secondItem="azE-WQ-GDv" secondAttribute="bottom" constant="12" id="NBT-TC-MRB"/>
                             <constraint firstItem="68J-O9-UtA" firstAttribute="trailing" secondItem="QQB-Ta-FOU" secondAttribute="trailing" constant="134" id="Pxc-32-aC0"/>
                             <constraint firstItem="QQB-Ta-FOU" firstAttribute="top" secondItem="t7y-Nd-wD5" secondAttribute="bottom" constant="35" id="TO8-eX-bHK"/>
                             <constraint firstItem="68J-O9-UtA" firstAttribute="bottom" secondItem="QQB-Ta-FOU" secondAttribute="bottom" constant="186" id="U1r-i2-aBF"/>
-                            <constraint firstItem="w0q-M3-Xu7" firstAttribute="top" secondItem="MWA-G1-TT1" secondAttribute="bottom" constant="112" id="VSU-tM-NJ9"/>
                             <constraint firstItem="t7y-Nd-wD5" firstAttribute="top" secondItem="RZQ-9n-i3N" secondAttribute="bottom" constant="35" id="XNC-hr-dii"/>
                             <constraint firstItem="QQB-Ta-FOU" firstAttribute="centerX" secondItem="qqx-hV-hVe" secondAttribute="centerX" id="Zyf-ZO-OaK"/>
+                            <constraint firstItem="QSC-OO-27D" firstAttribute="centerX" secondItem="qqx-hV-hVe" secondAttribute="centerX" id="l6D-Zd-mNp"/>
                             <constraint firstItem="RK9-OX-KkA" firstAttribute="centerX" secondItem="qqx-hV-hVe" secondAttribute="centerX" id="mNH-3w-eDT"/>
+                            <constraint firstItem="xbD-Vs-F8f" firstAttribute="centerX" secondItem="qqx-hV-hVe" secondAttribute="centerX" id="q2E-7x-hUL"/>
                             <constraint firstItem="kPW-hw-TBH" firstAttribute="leading" secondItem="68J-O9-UtA" secondAttribute="leading" constant="43" id="q8q-zd-4RI"/>
                             <constraint firstItem="RZQ-9n-i3N" firstAttribute="centerX" secondItem="qqx-hV-hVe" secondAttribute="centerX" id="uqu-eL-tBX"/>
-                            <constraint firstItem="azE-WQ-GDv" firstAttribute="top" secondItem="w0q-M3-Xu7" secondAttribute="bottom" constant="24" id="v6i-oK-y22"/>
+                            <constraint firstItem="xbD-Vs-F8f" firstAttribute="top" secondItem="MWA-G1-TT1" secondAttribute="bottom" constant="112" id="vNv-Bt-xQo"/>
+                            <constraint firstItem="68J-O9-UtA" firstAttribute="bottom" secondItem="QSC-OO-27D" secondAttribute="bottom" constant="64" id="wUe-Jm-Ygu"/>
                             <constraint firstItem="azE-WQ-GDv" firstAttribute="leading" secondItem="kPW-hw-TBH" secondAttribute="leading" id="xmG-v1-O4Q"/>
-                            <constraint firstItem="w0q-M3-Xu7" firstAttribute="centerX" secondItem="qqx-hV-hVe" secondAttribute="centerX" id="yF5-aC-mnG"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="68J-O9-UtA"/>
                     </view>
+                    <connections>
+                        <outlet property="ageField" destination="xbD-Vs-F8f" id="SgL-Xa-bhP"/>
+                        <outlet property="eduBtn" destination="RZQ-9n-i3N" id="Lsc-Ww-gqT"/>
+                        <outlet property="eduDrop" destination="QSC-OO-27D" id="XZ3-UK-ixd"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyl-lj-Xmf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1334,7 +1481,7 @@ about you</string>
         <!--Housing View Controller-->
         <scene sceneID="9Ku-vg-o1U">
             <objects>
-                <viewController title="Housing View Controller" id="WUK-8q-ncS" sceneMemberID="viewController">
+                <viewController title="Housing View Controller" id="WUK-8q-ncS" customClass="HousingViewController" customModule="ClimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aaF-x9-Lpc">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1368,7 +1515,8 @@ about you</string>
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Vec-xo-imn" kind="presentation" modalPresentationStyle="fullScreen" id="MQV-lX-uZI"/>
+                                    <action selector="housingSelected:" destination="WUK-8q-ncS" eventType="touchUpInside" id="qQE-ey-WSK"/>
+                                    <segue destination="Vec-xo-imn" kind="presentation" identifier="goToCountry" modalPresentationStyle="fullScreen" id="MQV-lX-uZI"/>
                                 </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="rect" translatesAutoresizingMaskIntoConstraints="NO" id="psd-Ng-lVN">
@@ -1397,7 +1545,8 @@ about you</string>
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Vec-xo-imn" kind="presentation" modalPresentationStyle="fullScreen" id="rlU-UJ-eO1"/>
+                                    <action selector="housingSelected:" destination="WUK-8q-ncS" eventType="touchUpInside" id="wIJ-IE-5AP"/>
+                                    <segue destination="Vec-xo-imn" kind="presentation" identifier="goToCountry" modalPresentationStyle="fullScreen" id="rlU-UJ-eO1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1418,6 +1567,10 @@ about you</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="sut-cl-QcC"/>
                     </view>
+                    <connections>
+                        <outlet property="offCam" destination="58e-bv-l4v" id="JOk-YG-1X7"/>
+                        <outlet property="onCam" destination="6i6-4c-gjZ" id="7OL-OO-VZp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OHY-DI-dPD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1426,7 +1579,7 @@ about you</string>
         <!--Country View Controller-->
         <scene sceneID="5bM-jO-85X">
             <objects>
-                <viewController title="Country View Controller" id="Vec-xo-imn" sceneMemberID="viewController">
+                <viewController title="Country View Controller" id="Vec-xo-imn" customClass="CountryViewController" customModule="ClimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cHA-V0-bZl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1458,22 +1611,6 @@ Origin:</string>
                                 <fontDescription key="fontDescription" name="Freude-Normal" family="Freude" pointSize="38"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="1HP-tk-r0p">
-                                <rect key="frame" x="46.5" y="430" width="321" height="86"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="86" id="Kij-PU-KT2"/>
-                                    <constraint firstAttribute="width" constant="321" id="Xzd-zE-1XK"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="25"/>
-                                <state key="normal" backgroundImage="usa">
-                                    <string key="title">United States of 
-        America</string>
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <segue destination="Q8W-m8-n0C" kind="presentation" modalPresentationStyle="fullScreen" id="i1j-PF-Yn4"/>
-                                </connections>
-                            </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="s4" translatesAutoresizingMaskIntoConstraints="NO" id="l7N-0m-B4r">
                                 <rect key="frame" x="134" y="642" width="146" height="30"/>
                                 <constraints>
@@ -1481,23 +1618,53 @@ Origin:</string>
                                     <constraint firstAttribute="width" constant="146" id="xwh-PF-nnN"/>
                                 </constraints>
                             </imageView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="United States of America" textAlignment="center" minimumFontSize="17" background="button3" translatesAutoresizingMaskIntoConstraints="NO" id="DOP-sl-DoZ">
+                                <rect key="frame" x="58.5" y="434" width="297" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="297" id="ARd-HT-p9U"/>
+                                    <constraint firstAttribute="height" constant="86" id="nTv-EI-jga"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="20"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLa-Pn-HKa">
+                                <rect key="frame" x="184" y="560" width="46" height="36"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="GWq-IY-jtS"/>
+                                    <constraint firstAttribute="height" constant="36" id="fzC-Uo-1Oi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="19"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="countrySaved:" destination="Vec-xo-imn" eventType="touchUpInside" id="oFV-FB-7HT"/>
+                                    <action selector="genderSelected:" destination="kLJ-ta-qaH" eventType="touchUpInside" id="tnx-29-Itp"/>
+                                    <segue destination="Q8W-m8-n0C" kind="presentation" identifier="goToDemoEnd" modalPresentationStyle="fullScreen" id="Pwf-x3-D0i"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="l7N-0m-B4r" firstAttribute="top" secondItem="TLa-Pn-HKa" secondAttribute="bottom" constant="46" id="5dN-qp-fBR"/>
                             <constraint firstItem="1XC-iP-77O" firstAttribute="top" secondItem="uE6-ZT-stY" secondAttribute="bottom" constant="102" id="5hg-Q3-1TE"/>
                             <constraint firstItem="YH0-hz-t7v" firstAttribute="bottom" secondItem="l7N-0m-B4r" secondAttribute="bottom" constant="190" id="6j1-d5-fB1"/>
+                            <constraint firstItem="TLa-Pn-HKa" firstAttribute="centerX" secondItem="cHA-V0-bZl" secondAttribute="centerX" id="8qc-GX-UAF"/>
                             <constraint firstItem="l7N-0m-B4r" firstAttribute="centerX" secondItem="cHA-V0-bZl" secondAttribute="centerX" id="AGr-9U-1kI"/>
-                            <constraint firstItem="l7N-0m-B4r" firstAttribute="top" secondItem="1HP-tk-r0p" secondAttribute="bottom" constant="126" id="BAf-Kb-1yL"/>
                             <constraint firstItem="uE6-ZT-stY" firstAttribute="centerX" secondItem="cHA-V0-bZl" secondAttribute="centerX" id="Dni-4b-AF1"/>
                             <constraint firstItem="uE6-ZT-stY" firstAttribute="top" secondItem="YH0-hz-t7v" secondAttribute="top" id="Hsr-bF-bOp"/>
-                            <constraint firstItem="1HP-tk-r0p" firstAttribute="top" secondItem="1XC-iP-77O" secondAttribute="bottom" constant="50" id="LyW-MK-vkH"/>
+                            <constraint firstItem="DOP-sl-DoZ" firstAttribute="top" secondItem="1XC-iP-77O" secondAttribute="bottom" constant="54" id="MSX-dE-Slo"/>
+                            <constraint firstItem="DOP-sl-DoZ" firstAttribute="centerX" secondItem="cHA-V0-bZl" secondAttribute="centerX" id="PSX-uH-9YD"/>
                             <constraint firstItem="1XC-iP-77O" firstAttribute="centerX" secondItem="cHA-V0-bZl" secondAttribute="centerX" id="ebf-Pe-KnQ"/>
                             <constraint firstItem="YH0-hz-t7v" firstAttribute="bottom" secondItem="MuJ-e2-sbZ" secondAttribute="bottom" constant="767" id="ih8-S3-cvX"/>
-                            <constraint firstItem="1HP-tk-r0p" firstAttribute="centerX" secondItem="cHA-V0-bZl" secondAttribute="centerX" id="oX3-Fm-9sA"/>
                             <constraint firstItem="MuJ-e2-sbZ" firstAttribute="centerX" secondItem="cHA-V0-bZl" secondAttribute="centerX" id="uP6-R0-n65"/>
+                            <constraint firstItem="TLa-Pn-HKa" firstAttribute="top" secondItem="DOP-sl-DoZ" secondAttribute="bottom" constant="40" id="uXC-Gq-CtM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="YH0-hz-t7v"/>
                     </view>
+                    <connections>
+                        <outlet property="countryField" destination="DOP-sl-DoZ" id="2l9-XN-fAS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0K2-kT-pYQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1506,7 +1673,7 @@ Origin:</string>
         <!--DemoEnd View Controller-->
         <scene sceneID="fXW-4i-ddC">
             <objects>
-                <viewController title="DemoEnd View Controller" id="Q8W-m8-n0C" sceneMemberID="viewController">
+                <viewController title="DemoEnd View Controller" id="Q8W-m8-n0C" customClass="DemoEndViewController" customModule="ClimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="0Yh-XG-eRn">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1560,7 +1727,8 @@ Habits!</string>
                                 </constraints>
                                 <state key="normal" backgroundImage="next"/>
                                 <connections>
-                                    <segue destination="Jqk-op-5F3" kind="presentation" modalPresentationStyle="fullScreen" id="O0C-TD-FlH"/>
+                                    <action selector="demoEndBtn:" destination="Q8W-m8-n0C" eventType="touchUpInside" id="Q2I-bj-guH"/>
+                                    <segue destination="Jqk-op-5F3" kind="presentation" identifier="goToCitizen" modalPresentationStyle="fullScreen" id="O0C-TD-FlH"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1588,7 +1756,7 @@ Habits!</string>
         <!--Citizen View Controller-->
         <scene sceneID="wax-W4-C38">
             <objects>
-                <viewController title="Citizen View Controller" id="Jqk-op-5F3" sceneMemberID="viewController">
+                <viewController title="Citizen View Controller" id="Jqk-op-5F3" customClass="CitizenViewController" customModule="ClimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Yad-b1-9QY">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="960"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1718,28 +1886,43 @@ Habits!</string>
                                                                     <constraint firstAttribute="height" constant="18" id="1CH-Ow-FIr"/>
                                                                     <constraint firstAttribute="width" constant="18" id="FEF-md-qfd"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyOne:" destination="Jqk-op-5F3" eventType="touchUpInside" id="9g5-t2-iLZ"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSr-O0-A06">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyOne:" destination="Jqk-op-5F3" eventType="touchUpInside" id="C1c-fV-g6a"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yfF-F4-8KZ">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyOne:" destination="Jqk-op-5F3" eventType="touchUpInside" id="rRI-py-aIf"/>
+                                                                </connections>
                                                             </button>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b64-EJ-Fy7">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyOne:" destination="Jqk-op-5F3" eventType="touchUpInside" id="2wq-br-Psy"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUN-iq-ddT">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oUN-iq-ddT" userLabel="One5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyOne:" destination="Jqk-op-5F3" eventType="touchUpInside" id="sHG-ed-wYH"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -1756,34 +1939,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="utb-10-6aw">
                                                         <rect key="frame" x="0.0" y="87" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zub-OE-p3B">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zub-OE-p3B" userLabel="2-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="18" id="cwe-Jm-vKg"/>
                                                                     <constraint firstAttribute="width" constant="18" id="g46-MP-nfK"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwo:" destination="Jqk-op-5F3" eventType="touchUpInside" id="xHg-vf-d3g"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9F-tE-ccd">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9F-tE-ccd" userLabel="2-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwo:" destination="Jqk-op-5F3" eventType="touchUpInside" id="lfj-GU-jSQ"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AK2-PW-R72">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AK2-PW-R72" userLabel="2-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwo:" destination="Jqk-op-5F3" eventType="touchUpInside" id="6r6-ki-NiZ"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ro4-tS-BZc">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ro4-tS-BZc" userLabel="2-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwo:" destination="Jqk-op-5F3" eventType="touchUpInside" id="985-Nc-IOJ"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pii-NS-FAr">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pii-NS-FAr" userLabel="2-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwo:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Kll-6x-jB1"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -1800,34 +1998,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="rIf-X1-4aB">
                                                         <rect key="frame" x="0.0" y="131" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcT-Es-hx3">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CcT-Es-hx3" userLabel="3-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="18" id="AaH-ed-aoG"/>
                                                                     <constraint firstAttribute="width" constant="18" id="PDu-nZ-yhm"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyThree:" destination="Jqk-op-5F3" eventType="touchUpInside" id="vGz-CQ-L53"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8a-bu-d0s">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E8a-bu-d0s" userLabel="3-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyThree:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Orz-al-A4h"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLS-2E-LIc">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TLS-2E-LIc" userLabel="3-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyThree:" destination="Jqk-op-5F3" eventType="touchUpInside" id="xFX-e4-xWA"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JI1-hJ-0Yc">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JI1-hJ-0Yc" userLabel="3-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyThree:" destination="Jqk-op-5F3" eventType="touchUpInside" id="OVM-Ju-ruc"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDM-4W-U8y">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QDM-4W-U8y" userLabel="3-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyThree:" destination="Jqk-op-5F3" eventType="touchUpInside" id="uhB-yl-wYW"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -1844,34 +2057,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Rqr-f8-u6n">
                                                         <rect key="frame" x="0.0" y="175" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cuh-rR-6yk">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cuh-rR-6yk" userLabel="4-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="18" id="Hgs-eK-7cq"/>
                                                                     <constraint firstAttribute="width" constant="18" id="Onp-8D-DGU"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFour:" destination="Jqk-op-5F3" eventType="touchUpInside" id="ZcZ-l6-CUO"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fv9-3F-Jno">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fv9-3F-Jno" userLabel="4-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFour:" destination="Jqk-op-5F3" eventType="touchUpInside" id="lqi-YH-K7b"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiz-tb-KSJ">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiz-tb-KSJ" userLabel="4-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFour:" destination="Jqk-op-5F3" eventType="touchUpInside" id="bVY-Jh-Kcr"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6Y-de-hYK">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s6Y-de-hYK" userLabel="4-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFour:" destination="Jqk-op-5F3" eventType="touchUpInside" id="adE-b6-G9C"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pxi-mX-ahZ">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pxi-mX-ahZ" userLabel="4-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFour:" destination="Jqk-op-5F3" eventType="touchUpInside" id="UGl-TQ-617"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -1888,34 +2116,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="wlo-k9-SwF">
                                                         <rect key="frame" x="0.0" y="219" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1x-9M-yVk">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V1x-9M-yVk" userLabel="5-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="18" id="19a-4X-uWQ"/>
                                                                     <constraint firstAttribute="height" constant="18" id="qGy-5G-g4p"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFive:" destination="Jqk-op-5F3" eventType="touchUpInside" id="JTg-5V-GNR"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mp8-Q7-56Z">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mp8-Q7-56Z" userLabel="5-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFive:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Uid-0u-4Bc"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVx-GW-y07">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kVx-GW-y07" userLabel="5-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFive:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Tza-fw-0OD"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lf-Mc-pMa">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Lf-Mc-pMa" userLabel="5-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFive:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Tfd-Wq-u2J"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIc-ct-Np8">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FIc-ct-Np8" userLabel="5-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyFive:" destination="Jqk-op-5F3" eventType="touchUpInside" id="egD-aC-7Bx"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -1932,34 +2175,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="fjz-HP-J6p">
                                                         <rect key="frame" x="0.0" y="263" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUo-Wa-y6x">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uUo-Wa-y6x" userLabel="6-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="18" id="0nH-fj-h1K"/>
                                                                     <constraint firstAttribute="height" constant="18" id="H7f-W8-C5D"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySix:" destination="Jqk-op-5F3" eventType="touchUpInside" id="0kY-ep-RSM"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb4-N0-R23">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb4-N0-R23" userLabel="6-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySix:" destination="Jqk-op-5F3" eventType="touchUpInside" id="GWu-uX-DUA"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZV-Mm-uJN">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZV-Mm-uJN" userLabel="6-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySix:" destination="Jqk-op-5F3" eventType="touchUpInside" id="pHU-9W-by1"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLW-n6-Yxi">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FLW-n6-Yxi" userLabel="6-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySix:" destination="Jqk-op-5F3" eventType="touchUpInside" id="ldB-EC-NpS"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STu-kC-7OR">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="STu-kC-7OR" userLabel="6-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySix:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Vct-8L-zjY"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -1976,34 +2234,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="lfl-1v-7N6">
                                                         <rect key="frame" x="0.0" y="307" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lal-Jg-sJA">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lal-Jg-sJA" userLabel="7-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="18" id="76R-nU-gFG"/>
                                                                     <constraint firstAttribute="height" constant="18" id="bcf-D8-yuu"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySeven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Fdy-B7-vvI"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGK-2B-sDA">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TGK-2B-sDA" userLabel="7-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySeven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="o9i-Nk-4Qu"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJt-5x-Og4">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FJt-5x-Og4" userLabel="7-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySeven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Beq-Tx-wMd"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2b-IQ-85Y">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V2b-IQ-85Y" userLabel="7-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySeven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="G9E-P1-3A5"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8w-Mo-47s">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J8w-Mo-47s" userLabel="7-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveySeven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="t0D-p7-6d6"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -2090,34 +2363,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="o6i-Xl-Igh">
                                                         <rect key="frame" x="0.0" y="35" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tut-Dx-idU">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tut-Dx-idU" userLabel="8-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="18" id="ZDW-3T-6FP"/>
                                                                     <constraint firstAttribute="width" constant="18" id="ZfH-RT-PUB"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEight:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Q3K-0S-RyU"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RD3-93-irL">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RD3-93-irL" userLabel="8-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEight:" destination="Jqk-op-5F3" eventType="touchUpInside" id="pDg-uq-HMh"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hE2-yM-glp">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hE2-yM-glp" userLabel="8-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEight:" destination="Jqk-op-5F3" eventType="touchUpInside" id="lw0-sV-gdU"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nyt-dG-yRA">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nyt-dG-yRA" userLabel="8-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEight:" destination="Jqk-op-5F3" eventType="touchUpInside" id="MzO-Ff-LCm"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z52-vi-00Z">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z52-vi-00Z" userLabel="8-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEight:" destination="Jqk-op-5F3" eventType="touchUpInside" id="eW9-nr-G8a"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -2134,34 +2422,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="dyf-tn-pqI">
                                                         <rect key="frame" x="0.0" y="71" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8u-TF-EFX">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j8u-TF-EFX" userLabel="9-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="18" id="1s8-fe-dbS"/>
                                                                     <constraint firstAttribute="height" constant="18" id="R9b-cW-iiw"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyNine:" destination="Jqk-op-5F3" eventType="touchUpInside" id="BsW-Tt-BG6"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nnu-Tm-Wel">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nnu-Tm-Wel" userLabel="9-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyNine:" destination="Jqk-op-5F3" eventType="touchUpInside" id="RSk-D3-xEO"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jT-cr-Vc7">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5jT-cr-Vc7" userLabel="9-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyNine:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Eg2-pm-wSX"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oc-nr-ReN">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7oc-nr-ReN" userLabel="9-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyNine:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Jh3-nB-JYi"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQQ-5z-Rh7">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GQQ-5z-Rh7" userLabel="9-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyNine:" destination="Jqk-op-5F3" eventType="touchUpInside" id="PG5-fO-XGF"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -2178,34 +2481,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="ffk-M3-Rb6">
                                                         <rect key="frame" x="0.0" y="107" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocb-bG-9VD">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ocb-bG-9VD" userLabel="10-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="18" id="WRP-3S-zW8"/>
                                                                     <constraint firstAttribute="height" constant="18" id="do1-vr-oaf"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTen:" destination="Jqk-op-5F3" eventType="touchUpInside" id="wAM-iM-Ppc"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AM8-Z7-o7n">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AM8-Z7-o7n" userLabel="10-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTen:" destination="Jqk-op-5F3" eventType="touchUpInside" id="xaW-0t-0X3"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hW-8p-toB">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5hW-8p-toB" userLabel="10-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTen:" destination="Jqk-op-5F3" eventType="touchUpInside" id="WCw-VK-uAY"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBO-li-YJy">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HBO-li-YJy" userLabel="10-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTen:" destination="Jqk-op-5F3" eventType="touchUpInside" id="JN9-pC-4na"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dD-sL-62K">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5dD-sL-62K" userLabel="10-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTen:" destination="Jqk-op-5F3" eventType="touchUpInside" id="LsE-oQ-aeL"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -2222,34 +2540,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="OI0-EF-dyn">
                                                         <rect key="frame" x="0.0" y="143" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBH-LN-ahC">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBH-LN-ahC" userLabel="11-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="18" id="AvR-z2-4aD"/>
                                                                     <constraint firstAttribute="width" constant="18" id="uwA-xv-LtO"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEleven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="C0I-8B-wcw"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIr-dF-mZS">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NIr-dF-mZS" userLabel="11-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEleven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="8JO-GX-zl5"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xv-w0-LJg">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Xv-w0-LJg" userLabel="11-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEleven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="Bpb-X8-gtH"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yg2-95-2IX">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yg2-95-2IX" userLabel="11-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEleven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="nFG-oE-JP6"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddq-pd-e5U">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ddq-pd-e5U" userLabel="11-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyEleven:" destination="Jqk-op-5F3" eventType="touchUpInside" id="MuQ-px-Mzo"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -2266,34 +2599,49 @@ Habits!</string>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="75X-Qg-LfJ">
                                                         <rect key="frame" x="0.0" y="179" width="114" height="18"/>
                                                         <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKg-KL-WHe">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oKg-KL-WHe" userLabel="12-1">
                                                                 <rect key="frame" x="0.0" y="0.0" width="18" height="18"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="18" id="5nA-Dc-Hhl"/>
                                                                     <constraint firstAttribute="height" constant="18" id="x9e-vX-nD5"/>
                                                                 </constraints>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="1" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwelve:" destination="Jqk-op-5F3" eventType="touchUpInside" id="BE5-Tf-ldP"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qm5-ip-ytU">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qm5-ip-ytU" userLabel="12-2">
                                                                 <rect key="frame" x="24" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="2" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwelve:" destination="Jqk-op-5F3" eventType="touchUpInside" id="aeP-LF-Eet"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idM-uv-NOg">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="idM-uv-NOg" userLabel="12-3">
                                                                 <rect key="frame" x="48" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="3" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwelve:" destination="Jqk-op-5F3" eventType="touchUpInside" id="ymh-i0-zoZ"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n85-Da-jUr">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n85-Da-jUr" userLabel="12-4">
                                                                 <rect key="frame" x="72" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="4" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwelve:" destination="Jqk-op-5F3" eventType="touchUpInside" id="vH6-Xx-vUv"/>
+                                                                </connections>
                                                             </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9D-wa-reT">
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9D-wa-reT" userLabel="12-5">
                                                                 <rect key="frame" x="96" y="0.0" width="18" height="18"/>
-                                                                <state key="normal" image="radio0"/>
+                                                                <state key="normal" title="5" image="radio0"/>
                                                                 <state key="selected" image="radio1"/>
+                                                                <connections>
+                                                                    <action selector="surveyTwelve:" destination="Jqk-op-5F3" eventType="touchUpInside" id="ToT-Ir-fVe"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <constraints>
@@ -2352,29 +2700,39 @@ Habits!</string>
                                 </constraints>
                             </scrollView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bh4-xW-daA">
-                                <rect key="frame" x="138" y="873" width="138" height="55"/>
+                                <rect key="frame" x="138" y="871" width="138" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="INF-N4-4Gm"/>
                                     <constraint firstAttribute="width" constant="138" id="YIe-je-wDI"/>
                                 </constraints>
                                 <state key="normal" image="done"/>
                                 <connections>
-                                    <segue destination="nsR-ZA-s6D" kind="presentation" modalPresentationStyle="fullScreen" id="uz2-2f-oZF"/>
+                                    <action selector="donePressed:" destination="Jqk-op-5F3" eventType="touchUpInside" id="ZJP-k8-fwB"/>
+                                    <segue destination="nsR-ZA-s6D" kind="presentation" identifier="goToSurEnd" modalPresentationStyle="fullScreen" id="uz2-2f-oZF"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MR8-gt-WF3">
+                                <rect key="frame" x="189" y="929" width="37.5" height="19"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="15"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="zxi-sn-S75" firstAttribute="top" secondItem="Yad-b1-9QY" secondAttribute="top" id="2E4-Ms-CSh"/>
                             <constraint firstItem="PJZ-Lj-z4N" firstAttribute="top" secondItem="YwZ-NZ-6NK" secondAttribute="bottom" constant="8" id="596-Re-97z"/>
-                            <constraint firstItem="bh4-xW-daA" firstAttribute="top" secondItem="jNj-SH-Mmn" secondAttribute="bottom" constant="20" id="BUv-pJ-qRo"/>
-                            <constraint firstAttribute="bottom" secondItem="bh4-xW-daA" secondAttribute="bottom" constant="32" id="H2W-ru-aq6"/>
+                            <constraint firstItem="bh4-xW-daA" firstAttribute="top" secondItem="jNj-SH-Mmn" secondAttribute="bottom" constant="18" id="BUv-pJ-qRo"/>
+                            <constraint firstAttribute="bottom" secondItem="bh4-xW-daA" secondAttribute="bottom" constant="34" id="H2W-ru-aq6"/>
+                            <constraint firstItem="bh4-xW-daA" firstAttribute="top" secondItem="MR8-gt-WF3" secondAttribute="bottom" constant="-77" id="IMh-6Q-gVi"/>
                             <constraint firstItem="YwZ-NZ-6NK" firstAttribute="centerX" secondItem="Yad-b1-9QY" secondAttribute="centerX" id="Kns-F8-KXv"/>
                             <constraint firstItem="YwZ-NZ-6NK" firstAttribute="top" secondItem="wnK-VY-9n0" secondAttribute="top" id="Odh-O9-GvB"/>
+                            <constraint firstItem="MR8-gt-WF3" firstAttribute="centerX" secondItem="Yad-b1-9QY" secondAttribute="centerX" id="Ub7-w6-K8n"/>
                             <constraint firstItem="jNj-SH-Mmn" firstAttribute="top" secondItem="PJZ-Lj-z4N" secondAttribute="bottom" constant="8" id="Uro-Si-8Nf"/>
                             <constraint firstItem="PJZ-Lj-z4N" firstAttribute="leading" secondItem="Yad-b1-9QY" secondAttribute="leadingMargin" id="bhw-2C-XSS"/>
                             <constraint firstItem="zxi-sn-S75" firstAttribute="centerX" secondItem="Yad-b1-9QY" secondAttribute="centerX" id="eWV-8y-hz7"/>
                             <constraint firstItem="PJZ-Lj-z4N" firstAttribute="centerX" secondItem="Yad-b1-9QY" secondAttribute="centerX" id="nm2-6A-mX1"/>
+                            <constraint firstItem="MR8-gt-WF3" firstAttribute="top" secondItem="PJZ-Lj-z4N" secondAttribute="bottom" constant="669" id="oeg-d1-vGF"/>
                             <constraint firstItem="jNj-SH-Mmn" firstAttribute="trailing" secondItem="wnK-VY-9n0" secondAttribute="trailing" id="r3E-zy-0DF"/>
                             <constraint firstItem="jNj-SH-Mmn" firstAttribute="leading" secondItem="wnK-VY-9n0" secondAttribute="leading" id="t8y-UX-0j5"/>
                             <constraint firstItem="bh4-xW-daA" firstAttribute="centerX" secondItem="Yad-b1-9QY" secondAttribute="centerX" id="ubo-Dm-lkc"/>
@@ -2382,6 +2740,69 @@ Habits!</string>
                         <viewLayoutGuide key="safeArea" id="wnK-VY-9n0"/>
                     </view>
                     <size key="freeformSize" width="414" height="960"/>
+                    <connections>
+                        <outlet property="eight1" destination="tut-Dx-idU" id="krg-Bm-oAy"/>
+                        <outlet property="eight2" destination="RD3-93-irL" id="P1M-zC-bF7"/>
+                        <outlet property="eight3" destination="hE2-yM-glp" id="6s8-xb-aWc"/>
+                        <outlet property="eight4" destination="Nyt-dG-yRA" id="kPX-5b-sKv"/>
+                        <outlet property="eight5" destination="Z52-vi-00Z" id="gLK-ta-InO"/>
+                        <outlet property="eleven1" destination="YBH-LN-ahC" id="aDw-tD-zLa"/>
+                        <outlet property="eleven2" destination="NIr-dF-mZS" id="csg-ML-lvl"/>
+                        <outlet property="eleven3" destination="2Xv-w0-LJg" id="QmJ-dO-zkE"/>
+                        <outlet property="eleven4" destination="Yg2-95-2IX" id="9xR-x0-fu3"/>
+                        <outlet property="eleven5" destination="Ddq-pd-e5U" id="mET-Nd-Zqp"/>
+                        <outlet property="errorLabel" destination="MR8-gt-WF3" id="fFh-pd-qYS"/>
+                        <outlet property="five1" destination="V1x-9M-yVk" id="3xN-cd-TSL"/>
+                        <outlet property="five2" destination="Mp8-Q7-56Z" id="Gs6-nO-ZY6"/>
+                        <outlet property="five3" destination="kVx-GW-y07" id="VjB-A8-QK9"/>
+                        <outlet property="five4" destination="4Lf-Mc-pMa" id="uVh-BC-sLP"/>
+                        <outlet property="five5" destination="FIc-ct-Np8" id="mBc-fk-rkC"/>
+                        <outlet property="four1" destination="Cuh-rR-6yk" id="ahB-f2-lek"/>
+                        <outlet property="four2" destination="fv9-3F-Jno" id="JVF-SW-KE0"/>
+                        <outlet property="four3" destination="aiz-tb-KSJ" id="yLp-Op-sZe"/>
+                        <outlet property="four4" destination="s6Y-de-hYK" id="wtJ-vA-eLr"/>
+                        <outlet property="four5" destination="Pxi-mX-ahZ" id="ai3-9Z-fzN"/>
+                        <outlet property="nine1" destination="j8u-TF-EFX" id="hTl-mA-N1J"/>
+                        <outlet property="nine2" destination="Nnu-Tm-Wel" id="KRv-xB-h69"/>
+                        <outlet property="nine3" destination="5jT-cr-Vc7" id="nXN-Tc-LUC"/>
+                        <outlet property="nine4" destination="7oc-nr-ReN" id="jWW-TN-vqx"/>
+                        <outlet property="nine5" destination="GQQ-5z-Rh7" id="5Gl-C8-ocx"/>
+                        <outlet property="one1" destination="qNn-xL-SE9" id="NV8-Fy-yp6"/>
+                        <outlet property="one2" destination="VSr-O0-A06" id="YWt-Yy-CPD"/>
+                        <outlet property="one3" destination="yfF-F4-8KZ" id="6yZ-ee-TZe"/>
+                        <outlet property="one4" destination="b64-EJ-Fy7" id="ZGs-0D-PQh"/>
+                        <outlet property="one5" destination="oUN-iq-ddT" id="fE0-gp-9q5"/>
+                        <outlet property="seven1" destination="lal-Jg-sJA" id="EvM-yl-zrY"/>
+                        <outlet property="seven2" destination="TGK-2B-sDA" id="ZuB-wT-IGg"/>
+                        <outlet property="seven3" destination="FJt-5x-Og4" id="hXP-JT-Q3Q"/>
+                        <outlet property="seven4" destination="V2b-IQ-85Y" id="etJ-QW-G3l"/>
+                        <outlet property="seven5" destination="J8w-Mo-47s" id="cqN-hQ-2SR"/>
+                        <outlet property="six1" destination="uUo-Wa-y6x" id="ITy-Ot-VzG"/>
+                        <outlet property="six2" destination="Wb4-N0-R23" id="3W5-Bl-LJW"/>
+                        <outlet property="six3" destination="CZV-Mm-uJN" id="E7g-8x-4Oc"/>
+                        <outlet property="six4" destination="FLW-n6-Yxi" id="LU9-1o-1ut"/>
+                        <outlet property="six5" destination="STu-kC-7OR" id="ewg-17-G3T"/>
+                        <outlet property="ten1" destination="ocb-bG-9VD" id="BmX-u9-BGO"/>
+                        <outlet property="ten2" destination="AM8-Z7-o7n" id="dk5-pS-3B1"/>
+                        <outlet property="ten3" destination="5hW-8p-toB" id="JAg-4g-6mZ"/>
+                        <outlet property="ten4" destination="HBO-li-YJy" id="uAl-FC-AZg"/>
+                        <outlet property="ten5" destination="5dD-sL-62K" id="1Wc-Iq-Sgq"/>
+                        <outlet property="three1" destination="CcT-Es-hx3" id="yC4-2U-jP7"/>
+                        <outlet property="three2" destination="E8a-bu-d0s" id="gZ8-B5-nPV"/>
+                        <outlet property="three3" destination="TLS-2E-LIc" id="qjY-UZ-WpZ"/>
+                        <outlet property="three4" destination="JI1-hJ-0Yc" id="v2i-cQ-IFV"/>
+                        <outlet property="three5" destination="QDM-4W-U8y" id="jSI-TE-nI9"/>
+                        <outlet property="twelve1" destination="oKg-KL-WHe" id="tFW-I3-Axa"/>
+                        <outlet property="twelve2" destination="Qm5-ip-ytU" id="z8g-eE-3bH"/>
+                        <outlet property="twelve3" destination="idM-uv-NOg" id="hjw-Xh-yNt"/>
+                        <outlet property="twelve4" destination="n85-Da-jUr" id="I4j-4r-DYq"/>
+                        <outlet property="twelve5" destination="X9D-wa-reT" id="PNb-Mb-x96"/>
+                        <outlet property="two1" destination="zub-OE-p3B" id="WGA-0V-t1R"/>
+                        <outlet property="two2" destination="x9F-tE-ccd" id="wJN-W3-pa3"/>
+                        <outlet property="two3" destination="AK2-PW-R72" id="3oF-Sy-rg8"/>
+                        <outlet property="two4" destination="Ro4-tS-BZc" id="3ot-ys-1sI"/>
+                        <outlet property="two5" destination="pii-NS-FAr" id="tHp-rn-AH2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hBp-2g-K1J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2390,7 +2811,7 @@ Habits!</string>
         <!--SurveyEnd View Controller-->
         <scene sceneID="g4R-OO-5E4">
             <objects>
-                <viewController title="SurveyEnd View Controller" id="nsR-ZA-s6D" sceneMemberID="viewController">
+                <viewController title="SurveyEnd View Controller" id="nsR-ZA-s6D" customClass="SurveyEndViewController" customModule="ClimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="od0-aj-E2Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2440,6 +2861,9 @@ status!</string>
                                     <constraint firstAttribute="height" constant="109" id="K4C-On-VT7"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="next"/>
+                                <connections>
+                                    <segue destination="QjE-Zo-mCb" kind="presentation" modalPresentationStyle="fullScreen" id="Zfp-xY-QSs"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTn-oc-U82">
                                 <rect key="frame" x="131" y="277" width="152.5" height="75.5"/>
@@ -2465,6 +2889,9 @@ status!</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="AHs-Pn-RrF"/>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="PTn-oc-U82" id="5Vf-Jn-Au4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LUv-OI-Jty" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2473,7 +2900,7 @@ status!</string>
         <!--ChooseAni View Controller-->
         <scene sceneID="C4G-fa-Rvp">
             <objects>
-                <viewController title="ChooseAni View Controller" id="QjE-Zo-mCb" sceneMemberID="viewController">
+                <viewController title="ChooseAni View Controller" id="QjE-Zo-mCb" customClass="ChooseAniViewController" customModule="ClimateProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oGq-2o-AUI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -2500,6 +2927,7 @@ Climate story</string>
                                         <rect key="frame" x="0.0" y="192" width="275" height="172"/>
                                         <state key="normal" image="turtle"/>
                                         <connections>
+                                            <action selector="turtlePressed:" destination="QjE-Zo-mCb" eventType="touchUpInside" id="Ekh-eE-8Zy"/>
                                             <segue destination="fgd-f0-dOE" kind="presentation" modalPresentationStyle="fullScreen" id="9T3-F7-hsZ"/>
                                         </connections>
                                     </button>
@@ -2593,6 +3021,9 @@ Climate story</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="LrC-n9-kOL"/>
                     </view>
+                    <connections>
+                        <outlet property="turtleBtn" destination="aVR-3I-UFM" id="F9C-tC-6I4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Pwx-IV-oq8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -2623,6 +3054,9 @@ Climate story</string>
                                             <constraint firstAttribute="width" constant="80" id="rbg-D5-EhK"/>
                                         </constraints>
                                         <state key="normal" image="feed"/>
+                                        <connections>
+                                            <segue destination="XlV-7E-ZVb" kind="presentation" modalPresentationStyle="fullScreen" id="WIc-rp-LuO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="waJ-MN-LNG">
                                         <rect key="frame" x="80" y="0.0" width="80" height="80"/>
@@ -3421,13 +3855,14 @@ about the sea turtle!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="Zfp-xY-QSs"/>
         <segue reference="rlU-UJ-eO1"/>
-        <segue reference="Pmm-50-JLD"/>
-        <segue reference="zbd-pM-kzv"/>
-        <segue reference="fiH-qF-w6o"/>
+        <segue reference="0hg-ha-DhG"/>
+        <segue reference="eRB-ag-KkC"/>
+        <segue reference="WIc-rp-LuO"/>
     </inferredMetricsTieBreakers>
     <resources>
-        <image name="age" width="177" height="86"/>
+        <image name="age0" width="177" height="86"/>
         <image name="alert" width="16" height="16"/>
         <image name="animals" width="28" height="19"/>
         <image name="badge" width="76" height="76"/>
@@ -3444,6 +3879,7 @@ about the sea turtle!</string>
         <image name="done" width="138" height="55"/>
         <image name="earth" width="159" height="159"/>
         <image name="education" width="262" height="86"/>
+        <image name="education0" width="262" height="86"/>
         <image name="feed" width="16" height="16"/>
         <image name="gotit" width="153" height="61"/>
         <image name="hands" width="84.5" height="65"/>
@@ -3478,6 +3914,5 @@ about the sea turtle!</string>
         <image name="turtle1" width="231" height="231"/>
         <image name="turtle2" width="325" height="217"/>
         <image name="turtle34" width="285" height="245"/>
-        <image name="usa" width="321" height="86"/>
     </resources>
 </document>

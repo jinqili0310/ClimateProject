@@ -19,7 +19,7 @@ class WelcomeViewController: UIViewController {
         
         nameField.addPadding(padding: .left(20))
 
-// MARK: - Keyboard issues
+// MARK: - Keyboard Issues
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
         self.view.addGestureRecognizer(tapGesture)
@@ -29,7 +29,7 @@ class WelcomeViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-// MARK: - Save name
+// MARK: - Save Name
     
     @IBAction func nameSaved(_ sender: UIButton) {
         let nameInput = nameField.text!
@@ -39,7 +39,7 @@ class WelcomeViewController: UIViewController {
             print("ok \(documentID!)")
             db.collection("users").document(documentID!).setData(["name": nameInput], merge: true)
 
-            performSegue(withIdentifier: "goToGender", sender: [nameInput])
+            performSegue(withIdentifier: "goToGender", sender: self)
         }
         
     }
@@ -58,10 +58,11 @@ class WelcomeViewController: UIViewController {
         if segue.identifier == "goToGender" {
             let genderVC = segue.destination as! GenderViewController
             genderVC.documentID = documentID
+            genderVC.nameText = nameField.text
         }
     }
     
-// MARK: - Keyboard issues
+// MARK: - Keyboard Issues
 
     @objc func keyboardWillShow(notification: NSNotification) {
             print(self.view.frame.origin.y)

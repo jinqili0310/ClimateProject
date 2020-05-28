@@ -1,38 +1,31 @@
 //
-//  GenderViewController.swift
+//  DemoEndViewController.swift
 //  ClimateProject
 //
-//  Created by Jinqi Li on 5/12/20.
+//  Created by Jinqi Li on 5/28/20.
 //  Copyright © 2020 Jinqi Li. All rights reserved.
 //
 
 import UIKit
 import Firebase
 
-class GenderViewController: UIViewController {
-    
-    var documentID: String!
-    var nameText: String!
+class DemoEndViewController: UIViewController {
 
+    var nameText: String!
+    var documentID: String!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-// MARK: - Save Gender
-    @IBAction func genderSelected(_ sender: UIButton) {
-        print(sender.titleLabel!.text)
-        let genderInput = sender.titleLabel!.text
-        let db = Firestore.firestore()
-        db.collection("users").document(documentID!).setData(["gender": genderInput], merge: true)
-        
-        performSegue(withIdentifier: "goToAgeEdu", sender: self)
-        
+    @IBAction func demoEndBtn(_ sender: UIButton) {
+        performSegue(withIdentifier: "goToCitizen", sender: self)
     }
-    
+            
 // MARK: - Navigation
-    
+            
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         if documentID != nil {
             return true
@@ -40,12 +33,12 @@ class GenderViewController: UIViewController {
             return false
         }
     }
-    
+            
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToAgeEdu" {
-            let ageeduVC = segue.destination as! AgeEduViewController
-            ageeduVC.documentID = documentID
-            ageeduVC.nameText = nameText
+        if segue.identifier == "goToCitizen" {
+            let citizenVC = segue.destination as! CitizenViewController
+            citizenVC.documentID = documentID
+            citizenVC.nameText = nameText
         }
     }
     
