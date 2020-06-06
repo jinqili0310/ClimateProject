@@ -1,26 +1,27 @@
 //
-//  SurveyEndViewController.swift
+//  TurtleThreeViewController.swift
 //  ClimateProject
 //
-//  Created by Jinqi Li on 5/28/20.
+//  Created by Jinqi Li on 6/6/20.
 //  Copyright © 2020 Jinqi Li. All rights reserved.
 //
 
 import UIKit
 import Firebase
 
-class SurveyEndViewController: UIViewController {
+class TurtleThreeViewController: UIViewController {
     
-    @IBOutlet weak var nameLabel: UILabel!
     var documentID: String!
     var nameText: String!
-
+    @IBOutlet weak var scroller: UIScrollView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        nameLabel.text = nameText+"!"
 
         // Do any additional setup after loading the view.
+    }
+    override func viewDidAppear(_ animated: Bool) {
+        scroller.contentSize = CGSize(width: UIScreen.main.bounds.width, height: 1107)
     }
     
 // MARK: - Navigation
@@ -34,10 +35,10 @@ class SurveyEndViewController: UIViewController {
     }
         
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "goToAni" {
-            let chooseVC = segue.destination as! ChooseAniViewController
-            chooseVC.documentID = documentID
-            chooseVC.nameText = nameText
+        if segue.identifier == "goToCon" {
+            let conVC = segue.destination as! CongratsViewController
+            conVC.documentID = documentID
+            conVC.nameText = nameText
         }
     }
     

@@ -12,6 +12,8 @@ import Firebase
 class ChooseAniViewController: UIViewController {
 
     @IBOutlet weak var turtleBtn: UIButton!
+    var documentID: String!
+    var nameText: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,6 +25,23 @@ class ChooseAniViewController: UIViewController {
         sender.setImage(UIImage(named: "turtleOn"), for: .normal)
     }
     
+// MARK: - Navigation
+        
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+            if documentID != nil {
+                return true
+            } else {
+                return false
+            }
+    }
+        
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToOne" {
+            let oneVC = segue.destination as! TurtleOneViewController
+            oneVC.documentID = documentID
+            oneVC.nameText = nameText
+        }
+    }
     /*
     // MARK: - Navigation
 
