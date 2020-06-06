@@ -11,13 +11,14 @@ import Firebase
 
 class CongratsViewController: UIViewController {
     
+    @IBOutlet weak var nameLabel: UILabel!
     var documentID: String!
     var nameText: String!
-    @IBOutlet weak var nameLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        print(nameText!)
         nameLabel.text = nameText+"!"
         
         // Do any additional setup after loading the view.
@@ -37,7 +38,7 @@ class CongratsViewController: UIViewController {
         activityViewController.excludedActivityTypes = [ UIActivity.ActivityType.airDrop, UIActivity.ActivityType.postToFacebook ]
 
         // present the view controller
-        self.present(activityViewController, animated: true, completion: nil)
+        // self.present(activityViewController, animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation
@@ -52,8 +53,15 @@ class CongratsViewController: UIViewController {
 }
 
 public func takeScreenshot(_ shouldSave: Bool = true) -> UIImage? {
+    let keyWindow = UIApplication.shared.connectedScenes
+    .filter({$0.activationState == .foregroundActive})
+    .map({$0 as? UIWindowScene})
+    .compactMap({$0})
+    .first?.windows
+    .filter({$0.isKeyWindow}).first
+    
     var screenshotImage :UIImage?
-    let layer = UIApplication.shared.keyWindow!.layer
+    let layer = keyWindow!.layer
     let scale = UIScreen.main.scale
     UIGraphicsBeginImageContextWithOptions(layer.frame.size, false, scale);
     guard let context = UIGraphicsGetCurrentContext() else {return nil}

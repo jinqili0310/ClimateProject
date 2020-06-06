@@ -18,6 +18,7 @@ class SurveyEndViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print(nameText!)
         nameLabel.text = nameText+"!"
 
         // Do any additional setup after loading the view.

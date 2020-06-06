@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="fgd-f0-dOE">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -33,7 +33,7 @@
                                 <rect key="frame" x="57" y="44" width="300" height="231"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="Nh2-Lq-MWs">
-                                <rect key="frame" x="39" y="296" width="336" height="346.5"/>
+                                <rect key="frame" x="39" y="296" width="336" height="345.5"/>
                                 <string key="text">Did you have a favorite animal growing up? How would you feel if your environment is becoming uninhabitable and you have no food supply? This is the case for many animals suffering from climate change impacts. 
 
 Burning fossil fuels, rising sea levels, warmer oceans, wildfires, droughts, and melting arctic have caused in an imbalance in our ecosystem endangering many animals’ habitats and ecosystems threatening their survival. </string>
@@ -42,7 +42,7 @@ Burning fossil fuels, rising sea levels, warmer oceans, wildfires, droughts, and
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The good news, you can help! " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1mI-mG-zEe">
-                                <rect key="frame" x="70" y="658.5" width="274.5" height="23.5"/>
+                                <rect key="frame" x="51.5" y="657.5" width="311" height="24.5"/>
                                 <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="20"/>
                                 <color key="textColor" red="0.91764705882352937" green="0.67450980392156867" blue="0.28627450980392155" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -3508,63 +3508,6 @@ Warmer temperatures and extreme weather trigger the rise in sea levels leading t
                         <rect key="frame" x="0.0" y="0.0" width="414" height="1295"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar" translatesAutoresizingMaskIntoConstraints="NO" id="FQA-DE-zGM">
-                                <rect key="frame" x="0.0" y="1207" width="414" height="88"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="414" id="2Ai-On-5Q8"/>
-                                    <constraint firstAttribute="height" constant="88" id="pRh-ii-swb"/>
-                                </constraints>
-                            </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VT4-fS-F4q">
-                                <rect key="frame" x="7" y="1207" width="400" height="80"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cB-Ba-n5h">
-                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="Hpc-Ih-bgg"/>
-                                            <constraint firstAttribute="height" constant="80" id="uUC-22-1bR"/>
-                                        </constraints>
-                                        <state key="normal" image="feed"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXR-co-Rht">
-                                        <rect key="frame" x="80" y="0.0" width="80" height="80"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="ukh-de-D3K"/>
-                                            <constraint firstAttribute="height" constant="80" id="ylu-rN-xAL"/>
-                                        </constraints>
-                                        <state key="normal" image="alert"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leO-hj-W3Z">
-                                        <rect key="frame" x="160" y="0.0" width="80" height="80"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="OgY-pP-ek6"/>
-                                            <constraint firstAttribute="width" constant="80" id="kSF-zo-Shz"/>
-                                        </constraints>
-                                        <state key="normal" image="animals"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqC-9n-LFp">
-                                        <rect key="frame" x="240" y="0.0" width="80" height="80"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="4ze-3p-r5W"/>
-                                            <constraint firstAttribute="height" constant="80" id="RQW-KI-cOg"/>
-                                        </constraints>
-                                        <state key="normal" image="photos"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dac-yg-HUt">
-                                        <rect key="frame" x="320" y="0.0" width="80" height="80"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="80" id="M7k-m9-drT"/>
-                                            <constraint firstAttribute="height" constant="80" id="mhf-n8-vcz"/>
-                                        </constraints>
-                                        <state key="normal" image="settings"/>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="400" id="VBW-wc-aGS"/>
-                                    <constraint firstAttribute="height" constant="80" id="gXE-9d-np3"/>
-                                </constraints>
-                            </stackView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="itd-Lv-Nc4">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="1107"/>
                                 <subviews>
@@ -3644,7 +3587,6 @@ Warmer temperatures and extreme weather trigger the rise in sea levels leading t
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="4oJ-B0-Fw9" firstAttribute="top" secondItem="itd-Lv-Nc4" secondAttribute="top" id="2xf-4w-MDb"/>
-                                    <constraint firstItem="4oJ-B0-Fw9" firstAttribute="centerY" secondItem="itd-Lv-Nc4" secondAttribute="centerY" id="DLe-WZ-bi0"/>
                                     <constraint firstAttribute="bottom" secondItem="4oJ-B0-Fw9" secondAttribute="bottom" id="Ma9-gw-IEa"/>
                                     <constraint firstAttribute="height" constant="1107" id="NNa-AC-kML"/>
                                     <constraint firstItem="4oJ-B0-Fw9" firstAttribute="centerX" secondItem="itd-Lv-Nc4" secondAttribute="centerX" id="Syp-2c-P61"/>
@@ -3653,6 +3595,63 @@ Warmer temperatures and extreme weather trigger the rise in sea levels leading t
                                     <constraint firstAttribute="width" constant="414" id="x1B-7G-D5X"/>
                                 </constraints>
                             </scrollView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="toolbar" translatesAutoresizingMaskIntoConstraints="NO" id="FQA-DE-zGM">
+                                <rect key="frame" x="0.0" y="1207" width="414" height="88"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="2Ai-On-5Q8"/>
+                                    <constraint firstAttribute="height" constant="88" id="pRh-ii-swb"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VT4-fS-F4q">
+                                <rect key="frame" x="7" y="1207" width="400" height="80"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8cB-Ba-n5h">
+                                        <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="Hpc-Ih-bgg"/>
+                                            <constraint firstAttribute="height" constant="80" id="uUC-22-1bR"/>
+                                        </constraints>
+                                        <state key="normal" image="feed"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EXR-co-Rht">
+                                        <rect key="frame" x="80" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="ukh-de-D3K"/>
+                                            <constraint firstAttribute="height" constant="80" id="ylu-rN-xAL"/>
+                                        </constraints>
+                                        <state key="normal" image="alert"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leO-hj-W3Z">
+                                        <rect key="frame" x="160" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80" id="OgY-pP-ek6"/>
+                                            <constraint firstAttribute="width" constant="80" id="kSF-zo-Shz"/>
+                                        </constraints>
+                                        <state key="normal" image="animals"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PqC-9n-LFp">
+                                        <rect key="frame" x="240" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="4ze-3p-r5W"/>
+                                            <constraint firstAttribute="height" constant="80" id="RQW-KI-cOg"/>
+                                        </constraints>
+                                        <state key="normal" image="photos"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dac-yg-HUt">
+                                        <rect key="frame" x="320" y="0.0" width="80" height="80"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="80" id="M7k-m9-drT"/>
+                                            <constraint firstAttribute="height" constant="80" id="mhf-n8-vcz"/>
+                                        </constraints>
+                                        <state key="normal" image="settings"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="VBW-wc-aGS"/>
+                                    <constraint firstAttribute="height" constant="80" id="gXE-9d-np3"/>
+                                </constraints>
+                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iVg-eb-dJm">
                                 <rect key="frame" x="131" y="1128" width="152" height="55"/>
                                 <constraints>
@@ -3660,7 +3659,7 @@ Warmer temperatures and extreme weather trigger the rise in sea levels leading t
                                 </constraints>
                                 <state key="normal" image="gotit"/>
                                 <connections>
-                                    <segue destination="g0c-oH-d0U" kind="presentation" modalPresentationStyle="fullScreen" id="Tdf-9j-GqS"/>
+                                    <segue destination="g0c-oH-d0U" kind="presentation" identifier="goToCon" modalPresentationStyle="fullScreen" id="Tdf-9j-GqS"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -3669,12 +3668,14 @@ Warmer temperatures and extreme weather trigger the rise in sea levels leading t
                             <constraint firstItem="VT4-fS-F4q" firstAttribute="centerX" secondItem="7AC-Je-ovt" secondAttribute="centerX" id="0XO-JP-xRa"/>
                             <constraint firstItem="itd-Lv-Nc4" firstAttribute="leading" secondItem="dlm-S0-l1B" secondAttribute="leading" id="14X-SH-gda"/>
                             <constraint firstItem="FQA-DE-zGM" firstAttribute="top" secondItem="itd-Lv-Nc4" secondAttribute="bottom" constant="100" id="Iha-6E-1x8"/>
+                            <constraint firstItem="FQA-DE-zGM" firstAttribute="trailing" secondItem="dlm-S0-l1B" secondAttribute="trailing" id="MnT-cW-MEN"/>
                             <constraint firstItem="VT4-fS-F4q" firstAttribute="top" secondItem="FQA-DE-zGM" secondAttribute="top" id="ShQ-bL-heb"/>
                             <constraint firstItem="iVg-eb-dJm" firstAttribute="centerX" secondItem="VT4-fS-F4q" secondAttribute="centerX" id="X7B-ce-vTE"/>
                             <constraint firstItem="itd-Lv-Nc4" firstAttribute="leading" secondItem="dlm-S0-l1B" secondAttribute="leading" id="YVC-aY-dT4"/>
                             <constraint firstItem="VT4-fS-F4q" firstAttribute="centerX" secondItem="FQA-DE-zGM" secondAttribute="centerX" id="cnF-6n-iTU"/>
-                            <constraint firstItem="VT4-fS-F4q" firstAttribute="centerX" secondItem="itd-Lv-Nc4" secondAttribute="centerX" id="ffy-4h-pdq"/>
+                            <constraint firstAttribute="bottom" secondItem="FQA-DE-zGM" secondAttribute="bottom" id="h1V-DI-cTc"/>
                             <constraint firstItem="itd-Lv-Nc4" firstAttribute="trailing" secondItem="dlm-S0-l1B" secondAttribute="trailing" id="jDe-Oh-Tcl"/>
+                            <constraint firstItem="FQA-DE-zGM" firstAttribute="leading" secondItem="dlm-S0-l1B" secondAttribute="leading" id="jrs-Jp-zlw"/>
                             <constraint firstItem="FQA-DE-zGM" firstAttribute="top" secondItem="iVg-eb-dJm" secondAttribute="bottom" constant="24" id="kza-40-7Ie"/>
                             <constraint firstItem="iVg-eb-dJm" firstAttribute="leading" secondItem="dlm-S0-l1B" secondAttribute="leading" constant="131" id="n2U-Hg-v6t"/>
                             <constraint firstItem="itd-Lv-Nc4" firstAttribute="top" secondItem="7AC-Je-ovt" secondAttribute="top" id="rYq-rr-PPT"/>
@@ -3747,7 +3748,7 @@ about the sea turtle!</string>
                                     <segue destination="XlV-7E-ZVb" kind="presentation" modalPresentationStyle="fullScreen" id="cU8-Xx-EAg"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYN-e1-bP3">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYN-e1-bP3">
                                 <rect key="frame" x="131" y="258" width="152.5" height="75.5"/>
                                 <fontDescription key="fontDescription" name="Freude-Normal" family="Freude" pointSize="60"/>
                                 <color key="textColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -3795,7 +3796,7 @@ about the sea turtle!</string>
                         <viewLayoutGuide key="safeArea" id="Sl6-oQ-r3Y"/>
                     </view>
                     <connections>
-                        <outlet property="nameLabel" destination="wYN-e1-bP3" id="HOV-1o-Sbk"/>
+                        <outlet property="nameLabel" destination="wYN-e1-bP3" id="6ws-Gf-pTA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ehp-cH-K6t" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -3906,7 +3907,7 @@ about the sea turtle!</string>
         <segue reference="rlU-UJ-eO1"/>
         <segue reference="0hg-ha-DhG"/>
         <segue reference="eRB-ag-KkC"/>
-        <segue reference="WIc-rp-LuO"/>
+        <segue reference="Lnj-Qq-Frn"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="age0" width="177" height="86"/>

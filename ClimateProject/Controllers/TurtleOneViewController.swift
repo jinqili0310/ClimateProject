@@ -11,13 +11,14 @@ import Firebase
 
 class TurtleOneViewController: UIViewController {
     
-    var documentID: String! = "11"
+    var documentID: String!
     var nameText: String!
     @IBOutlet weak var scroller: UIScrollView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print(nameText!)
         // Do any additional setup after loading the view.
     }
     override func viewDidAppear(_ animated: Bool) {

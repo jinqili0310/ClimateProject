@@ -11,13 +11,14 @@ import Firebase
 
 class ChooseAniViewController: UIViewController {
 
-    @IBOutlet weak var turtleBtn: UIButton!
     var documentID: String!
     var nameText: String!
+    @IBOutlet weak var turtleBtn: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        print(nameText!)
         // Do any additional setup after loading the view.
     }
     
