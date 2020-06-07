@@ -1132,7 +1132,7 @@ be reminded?</string>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLd-S1-Syn">
-                                <rect key="frame" x="77.5" y="185" width="259" height="76"/>
+                                <rect key="frame" x="75.5" y="185" width="263.5" height="76"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="76" id="VDf-HF-ev0"/>
                                 </constraints>
@@ -3708,7 +3708,7 @@ Warmer temperatures and extreme weather trigger the rise in sea levels leading t
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrats" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6uV-qA-78u">
-                                <rect key="frame" x="87" y="182" width="240" height="81"/>
+                                <rect key="frame" x="83.5" y="182" width="247" height="81"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="81" id="z3A-HN-NcQ"/>
                                 </constraints>
@@ -3749,7 +3749,7 @@ about the sea turtle!</string>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="John!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYN-e1-bP3">
-                                <rect key="frame" x="131" y="258" width="152.5" height="75.5"/>
+                                <rect key="frame" x="133" y="258" width="148" height="75.5"/>
                                 <fontDescription key="fontDescription" name="Freude-Normal" family="Freude" pointSize="60"/>
                                 <color key="textColor" red="0.37254901959999998" green="0.80784313730000001" blue="0.45882352939999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
