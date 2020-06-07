@@ -339,7 +339,7 @@ Your path to saving the climate and endangered animals.</string>
                                 </constraints>
                                 <string key="text">Hi John! Welcome to your 
 eco-warrior page! Here we track your progress as you become the next eco-warrior! Click on your level to find out how to move up in rank.</string>
-                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" name="Freude-Normal" family="Freude" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -3902,11 +3902,11 @@ about the sea turtle!</string>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Zfp-xY-QSs"/>
+        <segue reference="0MQ-NF-FpT"/>
         <segue reference="rlU-UJ-eO1"/>
         <segue reference="0hg-ha-DhG"/>
-        <segue reference="eRB-ag-KkC"/>
-        <segue reference="Lnj-Qq-Frn"/>
+        <segue reference="6md-U3-tds"/>
+        <segue reference="cU8-Xx-EAg"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="age0" width="177" height="86"/>

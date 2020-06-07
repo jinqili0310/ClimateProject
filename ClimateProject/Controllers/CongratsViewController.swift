@@ -38,7 +38,7 @@ class CongratsViewController: UIViewController {
         activityViewController.excludedActivityTypes = [ UIActivity.ActivityType.airDrop, UIActivity.ActivityType.postToFacebook ]
 
         // present the view controller
-        // self.present(activityViewController, animated: true, completion: nil)
+        self.present(activityViewController, animated: true, completion: nil)
     }
     /*
     // MARK: - Navigation
