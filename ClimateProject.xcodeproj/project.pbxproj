@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		D81E63E0247CD2F800D441A0 /* RemindMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81E63DF247CD2F800D441A0 /* RemindMeViewController.swift */; };
 		D8459BA7247E094500B2CC68 /* SetReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BA6247E094500B2CC68 /* SetReminderViewController.swift */; };
-		D8459BA9247E0BA700B2CC68 /* ReminderDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BA8247E0BA700B2CC68 /* ReminderDatePicker.swift */; };
 		D8459BB1247FC94900B2CC68 /* AgeEduViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BB0247FC94900B2CC68 /* AgeEduViewController.swift */; };
 		D8459BB3247FE22E00B2CC68 /* HousingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BB2247FE22E00B2CC68 /* HousingViewController.swift */; };
-		D8459BB5247FE25D00B2CC68 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BB4247FE25D00B2CC68 /* CountryViewController.swift */; };
-		D8459BB7247FE29300B2CC68 /* DemoEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BB6247FE29300B2CC68 /* DemoEndViewController.swift */; };
-		D8459BBB2480070100B2CC68 /* SurveyEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BBA2480070100B2CC68 /* SurveyEndViewController.swift */; };
 		D8459BBF248B90F200B2CC68 /* TurtleOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BBE248B90F200B2CC68 /* TurtleOneViewController.swift */; };
 		D8459BC1248B911600B2CC68 /* TurtleTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BC0248B911600B2CC68 /* TurtleTwoViewController.swift */; };
 		D8459BC3248B912900B2CC68 /* TurtleThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BC2248B912900B2CC68 /* TurtleThreeViewController.swift */; };
 		D8459BC9248C27F600B2CC68 /* CongratsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BC8248C27F600B2CC68 /* CongratsViewController.swift */; };
 		D8459BCC248C5A8C00B2CC68 /* ChooseAniViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BCA248C5A8B00B2CC68 /* ChooseAniViewController.swift */; };
 		D8459BCD248C5A8C00B2CC68 /* CitizenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BCB248C5A8B00B2CC68 /* CitizenViewController.swift */; };
+		D8459BD1248D42EC00B2CC68 /* CountryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BCE248D42EC00B2CC68 /* CountryViewController.swift */; };
+		D8459BD2248D42EC00B2CC68 /* DemoEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BCF248D42EC00B2CC68 /* DemoEndViewController.swift */; };
+		D8459BD3248D42EC00B2CC68 /* SurveyEndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BD0248D42EC00B2CC68 /* SurveyEndViewController.swift */; };
+		D8459BD7248D442000B2CC68 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8459BD6248D442000B2CC68 /* UserInfo.swift */; };
 		D89FA236243A7F3D00E0C146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89FA235243A7F3D00E0C146 /* AppDelegate.swift */; };
 		D89FA238243A7F3D00E0C146 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89FA237243A7F3D00E0C146 /* SceneDelegate.swift */; };
 		D89FA23A243A7F3D00E0C146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89FA239243A7F3D00E0C146 /* ViewController.swift */; };
@@ -33,7 +33,6 @@
 		D89FA255243A860D00E0C146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89FA254243A860D00E0C146 /* Assets.xcassets */; };
 		D8A8BC4D246A260400A21CA5 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BC4C246A260400A21CA5 /* WelcomeViewController.swift */; };
 		D8A8BC4F246B7D3000A21CA5 /* GenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8A8BC4E246B7D3000A21CA5 /* GenderViewController.swift */; };
-		D8CB1640246B80AD002FA7C5 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CB163F246B80AD002FA7C5 /* UserInfo.swift */; };
 		D8D03DAE2444D670003F50E5 /* ClimateProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8D03DAC2444D670003F50E5 /* ClimateProject.xcdatamodeld */; };
 		D8E941C3243C8CD400FAFB97 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E941C2243C8CD400FAFB97 /* LoginViewController.swift */; };
 		D8E941CA243C906B00FAFB97 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8E941C9243C906B00FAFB97 /* SignupViewController.swift */; };
@@ -49,18 +48,18 @@
 		C35E16CAB74E0617D429B63A /* Pods-ClimateProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClimateProject.release.xcconfig"; path = "Target Support Files/Pods-ClimateProject/Pods-ClimateProject.release.xcconfig"; sourceTree = "<group>"; };
 		D81E63DF247CD2F800D441A0 /* RemindMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindMeViewController.swift; sourceTree = "<group>"; };
 		D8459BA6247E094500B2CC68 /* SetReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetReminderViewController.swift; sourceTree = "<group>"; };
-		D8459BA8247E0BA700B2CC68 /* ReminderDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ReminderDatePicker.swift; path = ClimateProject/Views/ReminderDatePicker.swift; sourceTree = SOURCE_ROOT; };
 		D8459BB0247FC94900B2CC68 /* AgeEduViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeEduViewController.swift; sourceTree = "<group>"; };
 		D8459BB2247FE22E00B2CC68 /* HousingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousingViewController.swift; sourceTree = "<group>"; };
-		D8459BB4247FE25D00B2CC68 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryViewController.swift; path = ClimateProject/Views/CountryViewController.swift; sourceTree = SOURCE_ROOT; };
-		D8459BB6247FE29300B2CC68 /* DemoEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoEndViewController.swift; path = ClimateProject/Views/DemoEndViewController.swift; sourceTree = SOURCE_ROOT; };
-		D8459BBA2480070100B2CC68 /* SurveyEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SurveyEndViewController.swift; path = ClimateProject/Views/SurveyEndViewController.swift; sourceTree = SOURCE_ROOT; };
 		D8459BBE248B90F200B2CC68 /* TurtleOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleOneViewController.swift; sourceTree = "<group>"; };
 		D8459BC0248B911600B2CC68 /* TurtleTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleTwoViewController.swift; sourceTree = "<group>"; };
 		D8459BC2248B912900B2CC68 /* TurtleThreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurtleThreeViewController.swift; sourceTree = "<group>"; };
 		D8459BC8248C27F600B2CC68 /* CongratsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CongratsViewController.swift; sourceTree = "<group>"; };
 		D8459BCA248C5A8B00B2CC68 /* ChooseAniViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAniViewController.swift; sourceTree = "<group>"; };
 		D8459BCB248C5A8B00B2CC68 /* CitizenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitizenViewController.swift; sourceTree = "<group>"; };
+		D8459BCE248D42EC00B2CC68 /* CountryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewController.swift; sourceTree = "<group>"; };
+		D8459BCF248D42EC00B2CC68 /* DemoEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoEndViewController.swift; sourceTree = "<group>"; };
+		D8459BD0248D42EC00B2CC68 /* SurveyEndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyEndViewController.swift; sourceTree = "<group>"; };
+		D8459BD6248D442000B2CC68 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		D89FA232243A7F3D00E0C146 /* ClimateProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClimateProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D89FA235243A7F3D00E0C146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D89FA237243A7F3D00E0C146 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -75,7 +74,6 @@
 		D89FA254243A860D00E0C146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8A8BC4C246A260400A21CA5 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WelcomeViewController.swift; path = ClimateProject/Controllers/WelcomeViewController.swift; sourceTree = SOURCE_ROOT; };
 		D8A8BC4E246B7D3000A21CA5 /* GenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderViewController.swift; sourceTree = "<group>"; };
-		D8CB163F246B80AD002FA7C5 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 		D8D03DAD2444D670003F50E5 /* ClimateProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClimateProject.xcdatamodel; sourceTree = "<group>"; };
 		D8E941C2243C8CD400FAFB97 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ClimateProject/Controllers/LoginViewController.swift; sourceTree = SOURCE_ROOT; };
 		D8E941C9243C906B00FAFB97 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
@@ -152,9 +150,9 @@
 			children = (
 				D8459BCA248C5A8B00B2CC68 /* ChooseAniViewController.swift */,
 				D8459BCB248C5A8B00B2CC68 /* CitizenViewController.swift */,
-				D8459BBA2480070100B2CC68 /* SurveyEndViewController.swift */,
-				D8459BB6247FE29300B2CC68 /* DemoEndViewController.swift */,
-				D8459BB4247FE25D00B2CC68 /* CountryViewController.swift */,
+				D8459BCE248D42EC00B2CC68 /* CountryViewController.swift */,
+				D8459BCF248D42EC00B2CC68 /* DemoEndViewController.swift */,
+				D8459BD0248D42EC00B2CC68 /* SurveyEndViewController.swift */,
 				D8459BA6247E094500B2CC68 /* SetReminderViewController.swift */,
 				D81E63DF247CD2F800D441A0 /* RemindMeViewController.swift */,
 				D89FA239243A7F3D00E0C146 /* ViewController.swift */,
@@ -186,10 +184,9 @@
 		D8E941C4243C8DAD00FAFB97 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D8459BA8247E0BA700B2CC68 /* ReminderDatePicker.swift */,
+				D8459BD6248D442000B2CC68 /* UserInfo.swift */,
 				D8E941CD243C929800FAFB97 /* TextField.swift */,
 				D8E941CF243C9FF000FAFB97 /* Utilities.swift */,
-				D8CB163F246B80AD002FA7C5 /* UserInfo.swift */,
 				D8D03DAC2444D670003F50E5 /* ClimateProject.xcdatamodeld */,
 			);
 			path = Models;
@@ -328,27 +325,26 @@
 				D8A8BC4D246A260400A21CA5 /* WelcomeViewController.swift in Sources */,
 				D8459BBF248B90F200B2CC68 /* TurtleOneViewController.swift in Sources */,
 				D8459BCC248C5A8C00B2CC68 /* ChooseAniViewController.swift in Sources */,
+				D8459BD7248D442000B2CC68 /* UserInfo.swift in Sources */,
 				D8A8BC4F246B7D3000A21CA5 /* GenderViewController.swift in Sources */,
 				D8459BB3247FE22E00B2CC68 /* HousingViewController.swift in Sources */,
 				D8E941CA243C906B00FAFB97 /* SignupViewController.swift in Sources */,
-				D8459BA9247E0BA700B2CC68 /* ReminderDatePicker.swift in Sources */,
 				D8D03DAE2444D670003F50E5 /* ClimateProject.xcdatamodeld in Sources */,
 				D8E941C3243C8CD400FAFB97 /* LoginViewController.swift in Sources */,
-				D8459BB7247FE29300B2CC68 /* DemoEndViewController.swift in Sources */,
 				D8459BCD248C5A8C00B2CC68 /* CitizenViewController.swift in Sources */,
+				D8459BD3248D42EC00B2CC68 /* SurveyEndViewController.swift in Sources */,
 				D8E941D0243C9FF000FAFB97 /* Utilities.swift in Sources */,
 				D89FA23A243A7F3D00E0C146 /* ViewController.swift in Sources */,
 				D81E63E0247CD2F800D441A0 /* RemindMeViewController.swift in Sources */,
-				D8459BBB2480070100B2CC68 /* SurveyEndViewController.swift in Sources */,
+				D8459BD2248D42EC00B2CC68 /* DemoEndViewController.swift in Sources */,
 				D8E941CE243C929800FAFB97 /* TextField.swift in Sources */,
 				D8459BC1248B911600B2CC68 /* TurtleTwoViewController.swift in Sources */,
 				D8459BC3248B912900B2CC68 /* TurtleThreeViewController.swift in Sources */,
 				D89FA236243A7F3D00E0C146 /* AppDelegate.swift in Sources */,
-				D8CB1640246B80AD002FA7C5 /* UserInfo.swift in Sources */,
 				D89FA238243A7F3D00E0C146 /* SceneDelegate.swift in Sources */,
 				D8459BB1247FC94900B2CC68 /* AgeEduViewController.swift in Sources */,
-				D8459BB5247FE25D00B2CC68 /* CountryViewController.swift in Sources */,
 				D8459BA7247E094500B2CC68 /* SetReminderViewController.swift in Sources */,
+				D8459BD1248D42EC00B2CC68 /* CountryViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
